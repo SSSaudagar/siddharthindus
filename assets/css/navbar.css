@@ -11,3 +11,7 @@ h1, h2,h3,h4,h5,h6 {margin:0;}
     
 /*div with a background image*/
 .top_div {background-image: url(../../assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:26%;width:100%;}
+
+/*Page name section*/
+.pg_nm {color:white;background:#212121;padding:10px;padding-left: 4%; font-family: 'PT Sans Narrow';}
+        h1.pg_nm {font-size: 40px;text-transform: uppercase;}
