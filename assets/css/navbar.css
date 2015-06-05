@@ -1,0 +1,13 @@
+h1, h2,h3,h4,h5,h6 {margin:0;}
+ .sidd {color:#2E41BF;}   
+/*Navigation bar*/
+ .nav_bar {padding: 3%;padding-top: 1%;background: #012840;box-shadow: 1px 0 2px 2px rgba(0,0,0,0.8);border-bottom: 2px solid rgba(0,0,0,0.1);}
+.nav_bar h1 {float: left;color: white;font-size: 40px;font-family: 'Maven Pro';}
+#sid {color:#2E41BF;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
+.nav_bar ul {height: auto;padding: 8px 0px;margin: 0px;}
+.nav_bar li {float: right;display:block;}
+.nav_bar li a {text-decoration: none;font-size: 16px;color: white; padding: 10px 16px;background-color: transparent;margin: 0;font-family: "PT Sans Narrow"; transition: all 0.3s;}
+.nav_bar li a:hover{background-color: #2838A6;color: white;}
+    
+/*div with a background image*/
+.top_div {background-image: url(../../assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:26%;width:100%;}

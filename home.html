@@ -21,31 +21,45 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven Pro">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jura">
+
+<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">    
+<link rel="stylesheet" type="text/css" href="assets/css/image_slider.css">    
     
 <style>
-    h1, h2,h3,h4,h5,h6 {margin:0;}
- .sidd {color:#2E41BF; }   
-/*Navigation bar*/
- .nav_bar {padding: 3%;padding-top: 1%;background: #012840;box-shadow: 1px 0 2px 2px rgba(0,0,0,0.8);border-bottom: 2px solid rgba(0,0,0,0.1);}
-.nav_bar h1 {float: left;color: white;font-size: 40px;font-family: 'Maven Pro';}
-#sid {color:#2E41BF;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
-.nav_bar ul {height: auto;padding: 8px 0px;margin: 0px;}
-.nav_bar li {float: right;display:block;}
-.nav_bar li a {text-decoration: none;font-size: 16px;color: white; padding: 10px 16px;background-color: transparent;margin: 0;font-family: "PT Sans Narrow"}
-.nav_bar li a:hover{background-color: #2838A6;color: white;}
-    
-/*div with a background image*/
-.top_div {background-image: url(assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:26%;width:100%;}
-.top_div div > h1 {position: relative;color:white;text-transform: uppercase;text-shadow: 1px 1px 2px rgba(0,0,0,0.3);padding:3% 0 0 2%; font-size: 64px;} 
-    
+ .top_div div > h1 {position: relative;color:white;text-transform: uppercase;text-shadow: 1px 1px 2px rgba(0,0,0,0.3);padding:3% 0 0 2%; font-size: 64px;}    
 /*1st part of container*/
+.main_contnr {padding-bottom: 4%;}
 .container_hdr {padding: 4%;color: #212121; border-bottom: 1px dashed #212121;}
 .container_hdr h1, .container_hdr h4 {font-family: 'abel'; text-transform: uppercase;text-align: center;}
 .container_hdr h1 {font-size: 40px;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
 .container_hdr h4 {font-size: 30px;}
-.row2 {margin-top: 6%;margin-left: 3%;} 
-.row2 h1{text-transform: uppercase;font-family: 'Jura';font-family: 40px;}
-.row2 a{color: #212121; font-family: 'Maven Pro';}
+.row2 {margin-top: 6%;} 
+.row2 h1{text-transform: uppercase;font-family: 'Jura';font-size: 40px;text-align: center;margin-top:4%;}
+.row2 a{color: #212121; font-family: 'Maven Pro';font-weight: bold;}
+.row2 p{font-size: 20px;font-family: 'abel';padding: 2%;text-align: justify;}
+    
+/*horizontal line*/
+.undline {height:0px;border-bottom: 1px solid #dbdbdb;}
+    
+/*Additional links*/
+.row4 {padding-top: 6%;}
+.additionl_links {padding: 2%;background: #243396;cursor: pointer;}
+.additionl_links a{color: white;font-weight: bold;font-size: 20px;text-transform: uppercase;font-family: 'PT Sans Narrow';text-decoration: none;}
+.additionl_links .links_topgs:hover{text-decoration: underline;}
+.glyphicon-chevron-right {float: right;}
+    
+/*top slider*/
+.pic_slidr {width:100%; height:340px; overflow:hidden;}
+.pic_slidr ul {list-style: none;position: relative;top: 0;left: 0;}
+.pic_slidr ul li{position: absolute;top: 0;left: 0;}
+.pic_slidr li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.7);padding:10px;font-family: 'jura';}
+img.slids {width: 100%; height:100%;float: left;}
+
+ul.slider_indicator {padding-left: 34%;padding-top: 2%;}
+    
+/*2 columns with content*/
+.col1 {border-right: 1px solid #dbdbdb;}
+    
 </style>
     
 </head>
@@ -57,16 +71,17 @@
                 <li><a href="#">Auxillaries</a></li>
                 <li><a href="#">Other Presses</a></li>
                 <li><a href="#">Installations</a></li>
+                <li><a href="#">Extrusion</a></li>
                 <li><a href="#">Facilities</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Home</a></li>
             </ul>
         </div>
     
     <div class="top_div">
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid main_contnr">
     <div class="row row1">
         <div class="col-sm-12">
             <div class="container_hdr">
@@ -75,15 +90,105 @@
             </div>
         </div>    
     </div>
+        <div class="container">
         <div class="row row2">
+<!--
             <div class="col-sm-6">
+                <h1>enhancing <b>extrusion</b> through <b>technology</b></h1><hr class="undline">
                 <section>
-                <h1>enhancing <b>extrusion</b> through <b>technology</b></h1><hr>
-                    <p><a href="#"><span class="sidd">Siddharth</span> Industries</a> is the pioneer and the leading</p>
+                    <p><a href="#"><span class="sidd">Siddharth</span>Industries</a> is the pioneer and the leading Metal Extrusion Press manufacturing company in India, engaged in the manufacturing of Extrusion Press and Plants for Aluminium, Copper, Brass, Precious Metal and special purpose equipment etc.</p>
+                    <p><a href="#"><span class="sidd">Siddharth</span>Industries</a> with an experience of more than 30 years has acquired the technology and expertise to offer optimal solutions for extrusion. The company has never compromised on Quality &amp; Values, while achieving the desired goals and objectives.</p>
                 </section>
             </div>
+            <div class="col-sm-6">
+                <div class="pic_slidr">
+                    <ul>
+                        <li><h3>Aluminium Extrusion Plant</h3><img class="slids img-responsive" src="assets/img/Extrusion%20Plant.JPG" alt="Siddharth industries"></li>
+                        <li><h3>Cross over type Double Puller</h3><img class="slids img-responsive" src="assets/img/Double%20Puller%20.JPG" alt="Siddharth industries"></li>
+                        <li><h3>Belt Conveyor</h3><img class="slids img-responsive" src="assets/img/Belt%20Conveyor.JPG" alt="Siddharth industries"></li>
+                        <li><h3>Stretcher</h3><img class="slids img-responsive" src="assets/img/stretcher1.JPG" alt="Siddharth industries"></li>
+                    </ul>
+                </div>
+                <ul class="slider_indicator">
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+            </div>
+-->
+            
+            <div class="col-sm-12 top_prt">
+                
+                 <div class="pic_slidr">
+                    <ul>
+                        <li><h3>2000 MT (2200 UST) Capacity Aluminium Extrusion Plant</h3><img class="slids img-responsive" src="assets/img/extrusn.jpg" alt="Siddharth industries"></li>
+                        <li><h3>Cross over Type Double Puller</h3><img class="slids img-responsive" src="assets/img/dob_pul.jpg" alt="Siddharth industries"></li>
+                        <li><h3>Belt Conveyor</h3><img class="slids img-responsive" src="assets/img/belt_con.png" alt="Siddharth industries"></li>
+                        <li><h3>40 MT Stretcher</h3><img class="slids img-responsive" src="assets/img/stret.JPG" alt="Siddharth industries"></li>
+                    </ul>
+                </div>
+                <ul class="slider_indicator">
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+                <br>
+                 <h1>enhancing <b>extrusion</b> through <b>technology</b></h1><hr class="undline">
+                <div class="row">
+                    <div class="col-sm-6 col1">
+                                    <section>
+                    <p><a href="#"><span class="sidd">Siddharth</span>Industries</a> is the pioneer and the leading Metal Extrusion Press manufacturing company in India, engaged in the manufacturing of Extrusion Press and Plants for Aluminium, Copper, Brass, Precious Metal and special purpose equipment etc.</p>
+                    <p><a href="#"><span class="sidd">Siddharth</span>Industries</a> with an experience of more than 30 years has acquired the technology and expertise to offer optimal solutions for extrusion. The company has never compromised on Quality &amp; Values, while achieving the desired goals and objectives.</p>
+                </section>
+                    </div>
+                    <div class="col-sm-6">
+                    <section>
+                        <p>SIDDHARTH INDUSTRIES manufactures Extrusion Presses and Complete Automatic Plants ranging from <b>360 MT to 10000 MT</b> capacity. The clientele of the company is spread over American, European and Asian continents.</p>
+                        <p>Using the latest and most modern technologies, SIDDHARTH INDUSTRIES supplies its customers with more than just machines - we offer solutions for the State of the Art production facilities. Latest technologies for design, precise machining facilities for manufacture and innovative automation for control gives SIDDHARTH INDUSTRIES a cutting edge to meet the demands of today's Engineering world.
+                        </p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div><br><hr>
+<!--
+            <div class="row row3">
+                <div class="col-sm-6">
+                <section>
+                <p><a href="#"><span class="sidd">Siddharth</span>Industries</a> manufactures Extrusion Presses and Complete Automatic Plants ranging from <b>360 MT to 10000 MT</b> capacity. The clientele of the company is spread over American, European and Asian continents.</p>    
+                </section>
+                </div>
+                <div class="col-sm-6"></div>
+            </div>
+-->
+            <div class="row row4">
+                <div class="col-sm-3">
+                    <div class="additionl_links"><a href="#"><span class="links_topgs">Facilities</span>  <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="additionl_links"><a href="#"><span class="links_topgs">Extrusion</span> <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="additionl_links"><a href="#"><span class="links_topgs">Other Presses</span> <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="additionl_links"><a href="#"><span class="links_topgs">Auxillaries</span> <span class="glyphicon glyphicon-chevron-right"></span></a></div>
+                </div>
+            </div>
+            
+            
         </div>
+        
+        <div class="row footr"></div>
     </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/slider.js"></script>
 </body>
     
 </html>

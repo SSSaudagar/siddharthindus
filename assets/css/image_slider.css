@@ -1,0 +1,10 @@
+/*image slider*/
+.pic_slidr {margin-left: 40px; width:600px; height:340px; overflow:hidden;}
+.pic_slidr ul {list-style: none;position: relative;top: 0;left: 0;}
+.pic_slidr ul li{position: absolute;top: 0;left: 0;}
+.pic_slidr li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.8);padding:10px;font-family: 'jura';}
+img.slids {height:100%;float: right;}
+
+ul.slider_indicator {padding-left: 26%;padding-top: 2%;}
+ul.slider_indicator li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline-block;cursor: pointer;}
+ul.slider_indicator li.active{background: #2E41BF;}
