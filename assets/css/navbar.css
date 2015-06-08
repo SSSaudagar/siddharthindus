@@ -24,64 +24,72 @@ h1, h2,h3,h4,h5,h6 {margin:0;}
 
 
 /*Responsive menu*/
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1000px)
 {
     body
     {overflow-x: hidden;}
      
    .toggle-nav {
-    padding:10px;
+    padding:0px 10px;
         float:right;
         display:inline-block;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
         background:transparent;
         text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-        color:#777;
-        font-size:20px;
         transition:color linear 0.15s;
+        font-size: 30px;
    }
 
     .nav_bar {
         position:relative;
         display:inline-block;
         width: 100%;
+        padding-bottom: 10px;
     }
-    .nav_bar ul > h3 {display: block;padding: 16px;color:white;background: #212121;}
+    .nav_bar ul > h3 { display: block;padding: 16px;color:white;background: #212121;text-transform: uppercase;}
     .nav_bar li a:hover{background-color: transparent;}
     .nav_bar li{background-color: transparent;transition: all 0.3s;}
-    .nav_bar li:hover{background-color: rgba(43,43,43,0.98);;color: white;}
+    .nav_bar li:hover{background-color: rgba(43,43,43,0.98);s}
     
     .nav_bar ul.active
     {
-        right: -600px;
+        right: -100%;
         transition: all 0.2s;
     }
-    
     .nav_bar ul {
-        width:100%;
+        width:40%;
         position:absolute;
         right: 0px;
-        top:50px;
+        top:0px;
         padding:0px;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         background:rgba(48,48,48,0.98);
         transition: all 0.2s;
         z-index: 100;
     }
-
+    
+    .menu_icn {float :right;cursor: pointer;padding-right: 10px;}
     
     .nav_bar li  {
         padding:5px 0px 5px 0px;
         float:none;
-        border-bottom: 2px solid rgba(43,43,43,0.98);
+        border-bottom: 1px solid rgba(43,43,43,0.98);
         display:block;
+        font-family: 'PT Sans';
+        text-transform: uppercase;
     }
     
     .nav_bar li:last-child {border: 0;}
- 
-    .nav_bar a {
-        display:block;
-    }
+    .nav_bar li a {font-family: 'open sans';color: #dbdbdb;}
+    .nav_bar a {display:block; }
 
+}
+
+@media screen and (max-width: 800px)
+{
+    .nav_bar h1 {font-size: 30px;margin-top:6px;}
+    
+    .nav_bar ul {
+        width:100%;}
 }

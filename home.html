@@ -58,13 +58,25 @@ a.additionl_links{color: white;font-weight: bold;font-size: 20px;text-transform:
 .pic_slidr ul {list-style: none;position: relative;top: 0;left: 0;}
 .pic_slidr ul li{position: absolute;top: 0;left: 0;}
 .pic_slidr li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.7);padding:10px;font-family: 'jura';}
-img.slids {width: 100%; height:100%;float: left;}
+img.slids {width: 100%; height:100%;}
 
 ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
     
 /*2 columns with content*/
 .col1 {border-right: 1px solid #dbdbdb;}
     
+/*responsive*/
+@media screen and (max-width: 800px)
+{
+    .pic_slidr li h3 {font-size: 20px;}
+    .pic_slidr {height: 200px;}
+}
+    
+@media screen and (max-width: 600px)
+{
+    .pic_slidr {height: 150px;}
+}    
+
 </style>
     
 </head>
@@ -72,7 +84,7 @@ ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
     <div class="nav_bar">
         <h1><span id="sid">Siddharth</span>Industries</h1>
             <ul class="active">
-                <h3>Menu &#9776;</h3>
+                <h3>Menu <span class="menu_icn">&#9776;</span></h3>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
@@ -83,7 +95,7 @@ ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
                 <li><a href="#">Contact</a></li>
             </ul>
         
-        <a class="toggle-nav" href="#" style="text-decoration:none;">&#9776;</a>
+        <a class="toggle-nav" href="#" style="text-decoration:none;color:white;">&#9776;</a>
         </div>
     
     <div class="top_div">
