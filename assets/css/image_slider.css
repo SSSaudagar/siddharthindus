@@ -10,10 +10,11 @@ ul.slider_indicator li{width:14%;height:10px;background: #dbdbdb;list-style: non
 ul.slider_indicator li.active{background: #2E41BF;}
 
 /*smal slider*/
-.sml_slidr {margin-left: 40px; width:400px; height:200px; overflow:hidden;}
-.sml_slidr ul {list-style: none;}
-.sml_slidr ul li{position: absolute;top: 0;left: 0;}
-.sml_slidr li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.8);padding:10px;font-family: 'jura';}
+.sml_slidr, .sml_slidr2 {margin-left: 40px; width:400px; height:200px; overflow:hidden;}
+.sml_slidr ul, .sml_slidr2 ul {list-style: none;}
+.sml_slidr ul li, .sml_slidr2 ul li {position: absolute;top: 0;left: 0;}
+.sml_slidr li h3, sml_slidr2 li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.8);padding:10px;font-family: 'jura';}
 img.sml_slides {height:100%;float: right;}
 
 ul.slider_indicator1 {display: none;}
+ul.slider_indicator2 {display: none;}
