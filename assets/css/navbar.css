@@ -1,3 +1,4 @@
+body {overflow-x: hidden;}
 h1, h2,h3,h4,h5,h6 {margin:0;}
  .sidd {color:#2E41BF;}   
 /*Navigation bar*/
@@ -5,7 +6,6 @@ h1, h2,h3,h4,h5,h6 {margin:0;}
     display:none;
     text-decoration: none;
 }
-
  .nav_bar {padding: 4%;padding-top: 1%;background: #012840;box-shadow: 1px 0 2px 2px rgba(0,0,0,0.8);border-bottom: 2px solid rgba(0,0,0,0.1);}
 .nav_bar h1 {float: left;color: white;font-size: 40px;font-family: 'Maven Pro';}
 #sid {color:#2E41BF;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
@@ -16,7 +16,7 @@ h1, h2,h3,h4,h5,h6 {margin:0;}
 .nav_bar li a:hover{background-color: #2838A6;color: white;}
     
 /*div with a background image*/
-.top_div {background-image: url(../../assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:26%;width:100%;}
+.top_div {background-image: url(../../assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:140px;width:100%;}
 
 /*Page name section*/
 .pg_nm {color:white;background:#212121;padding:10px;padding-left: 4%; font-family: 'PT Sans Narrow';}
