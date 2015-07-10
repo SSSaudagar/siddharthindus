@@ -6,5 +6,6 @@
     $('.menu_icn').click(function(e) {
          $('.nav_bar ul').addClass('active');
         e.preventDefault();
-    });       
+    });   
+   
 });
