@@ -28,7 +28,7 @@
     <style>
         .container-fluid {font-family:abel;}
         #location {height:300px;width:100%}
-        #hdr_cont {text-align:center;background:#3247D1;padding:10px;color:white;}
+/*        #hdr_cont {text-align:center;background:#3247D1;padding:10px;color:white;}*/
         .contct_sectn {margin-top:6%;padding:6%;padding-top:0;}
         input[class="form-control"], textarea[class="form-control"] {border-radius:0;border:1px solid grey;color:black}
         input[class="form-control"]:focus, textarea[class="form-control"]:focus {box-shadow:none;border-color:#3247D1}
@@ -68,7 +68,7 @@
         <div class="container-fluid">
         <div class="row">
             <div id="location"></div>    
-            <h1 id="hdr_cont">Get in touch with us </h1>
+<!--            <h1 id="hdr_cont">Contact Us </h1>-->
         </div>
         <div class="row contct_sectn">
             <div class="col-sm-7">
@@ -176,7 +176,7 @@
             Mache, Belgaum- 590 014 (INDIA)
                 </p>
                 <br><br>
-                <h3>Contact Us</h3><br>
+                <h3>Contacts</h3><br>
                 <p><span class="sub_text">Phone :</span> +91-831-2411175/71</p>
                 <p><span class="sub_text">Fax :</span> +91-831-2411174/175</p>
                 <p><span class="sub_text">E-mail :</span> <a style="color:#3F51B5;" href="mailto:siddhartindus@gmail.com" title="siddhartindus@gmail.com">siddhartindus@gmail.com</a></p>
