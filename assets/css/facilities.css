@@ -1,0 +1,10 @@
+.container-fluid {padding:2%;margin:4%;}
+.container-fluid .row {background:#f0f0f0;}
+.facility {padding: 10%;}
+.facility h3 {font-family:'dosis';font-weight: bold;}
+.facility p {font-family: 'Questrial';font-size: 16px;margin-top: 4%;text-align: justify;}
+    
+@media screen and (max-width:340px){
+.facility h3 {font-size: 20px;}
+.facility p {font-size: 13px;}
+}

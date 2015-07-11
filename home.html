@@ -27,55 +27,7 @@
 
 <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">    
 <link rel="stylesheet" type="text/css" href="assets/css/image_slider.css">
-    
-<style>
- .top_div div > h1 {position: relative;color:white;text-transform: uppercase;text-shadow: 1px 1px 2px rgba(0,0,0,0.3);padding:3% 0 0 2%; font-size: 64px;}    
-/*1st part of container*/
-/*.main_contnr {padding-bottom: 4%;}*/
-.container_hdr {padding: 4%;color: #212121; border-bottom: 1px dashed #212121;}
-.container_hdr h1, .container_hdr h4 {font-family: 'abel'; text-transform: uppercase;text-align: center;}
-.container_hdr h1 {font-size: 40px;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
-.container_hdr h4 {font-size: 30px;}
-.row2 {margin-top: 6%;} 
-.row2 h1{text-transform: uppercase;font-family: 'Rajdhani';font-size: 40px;text-align: center;margin-top:4%;}
-.row2 a{color: #212121; font-family: 'Maven Pro';font-weight: bold;}
-.row2 p{font-size: 18px;font-family: 'Quattrocento Sans';padding: 2%;text-align: justify;}
-.comp_nm {font-weight: bold;}   
-/*horizontal line*/
-.undline {height:0px;border-bottom: 1px solid #dbdbdb;}
-    
-/*Additional links*/
-.row4 {padding-top: 6%;}
-.additionl_links {padding: 2%;background: #243396;cursor: pointer;border-radius: 0;height:auto;width:100%;transition: all 0.2s;}
-.additionl_links:hover {background:#3247D1; color:White;}
-a.additionl_links{color: white;font-weight: bold;font-size: 20px;text-transform: uppercase;font-family: 'PT Sans Narrow';text-decoration: none;}
-.links_topgs {float: left;}
-.glyphicon-chevron-right {float: right;}
-    
-/*top slider*/
-.top_prt {padding:10px 40px;}
-.pic_slidr {margin-left: 0px;width:100%; height:340px; overflow:hidden;}
-.pic_slidr ul {list-style: none;position: relative;top: 0;left: 0;}
-.pic_slidr ul li{position: absolute;top: 0;left: 0;}
-.pic_slidr li h3 {position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.7);padding:10px;font-family: 'jura';}
-img.slids {width: 100%; height:100%;}
-#last_hd {text-align: center;margin-top: 0%;background:  #2838A6;color: white;padding: 10px;font-family: rajdhani;font-size: 30px;}
-ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
-.col1 {border-right: 1px solid #dbdbdb;}
-#locations {height:400px;width:100%}
-/*responsive*/
-@media screen and (max-width: 800px)
-{
-    .pic_slidr li h3 {font-size: 20px;}
-    .pic_slidr {height: 200px;}
-}
-    
-@media screen and (max-width: 600px)
-{
-    .pic_slidr {height: 150px;}
-}    
-
-</style>
+<link rel="stylesheet" type="text/css" href="assets/css/homepg.css">
     
 </head>
 <body>
@@ -86,7 +38,7 @@ ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
                 <li><a class="actve_pg" href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
-                <li><a href="extrusion.html">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         
@@ -166,47 +118,7 @@ ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/res_menu.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js"></script>
-    <script>
-    var locatns = [
-    [-1.83124, -78.18341],  //ecuador
-    [39.39987, -8.22445],   //portugal
-    [40.46367, -3.74922],   //spain
-    [39.07421, 21.82431],   //greece
-    [38.96375, 35.24332],   //turkey
-    [23.88594, 45.07916],   //saudi arabia
-    [21.51258, 55.92325],   //oman
-    [28.39486, 84.12401],   //nepal
-    [23.68499, 90.35633],   //bangladesh
-    [7.87305, 80.77180] //sri lanka
-    ];    
-    
-    var len = locatns.length;
-    var cen = new google.maps.LatLng(26.33510, 17.22833);
-function initialize() {
-  var mapProp = {
-    center:cen,
-    zoom:3,
-    scrollwheel:false,
-      draggable: false,
-      disableDefaultUI:true,
-      disableDoubleClickZoom: true,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("locations"),mapProp);
-    var marker = new Array();
-    
-for(var i = 0; i<len; i++)
-{
-    var marker = new google.maps.Marker({
-    position: new google.maps.LatLng(locatns[i][0], locatns[i][1]),
-        map: map
-    });
-}
-
-marker.setMap(map);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+    <script src="assets/js/installation.js"></script>
 </body>
     
 </html>

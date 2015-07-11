@@ -25,24 +25,7 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Jura">
 
 <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
-    <style>
-        .container-fluid {font-family:abel;}
-        #location {height:300px;width:100%}
-/*        #hdr_cont {text-align:center;background:#3247D1;padding:10px;color:white;}*/
-        .contct_sectn {margin-top:6%;padding:6%;padding-top:0;}
-        input[class="form-control"], textarea[class="form-control"] {border-radius:0;border:1px solid grey;color:black}
-        input[class="form-control"]:focus, textarea[class="form-control"]:focus {box-shadow:none;border-color:#3247D1}
-        .submit, .reset {margin-top:10%;color:white;font-size:20px;border-radius:0;border:0}
-        .submit {background:#3247D1;}
-        .reset {background:#212121;}
-        .reset:hover {background:#212121;color:#dbdbdb}
-        .submit:hover {background:#3247D1;color:#dbdbdb;}
-        .pg_nm {margin-top:70px;}
-        .form_hdrs {text-align:center;}
-        h2.form_hdrs {text-transform:uppercase;}
-        h4.form_hdrs {font-weight:bold;}
-        .sub_text {font-weight:bold;}
-    </style>
+<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     
     </head>
     
@@ -54,21 +37,16 @@
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="facilities.html">Facilities</a></li>
-                <li><a href="extrusion.html">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li><a class="actve_pg" href="contact.php">Contact</a></li>
             </ul>
         
          <a class="toggle-nav" href="#" style="text-decoration:none;color:white;">&#9776;</a>
         </div>
-<!--
-        <div class="top_div">
-        </div>
--->
         <h1 class="pg_nm">Contact us</h1>
         <div class="container-fluid">
         <div class="row">
             <div id="location"></div>    
-<!--            <h1 id="hdr_cont">Contact Us </h1>-->
         </div>
         <div class="row contct_sectn">
             <div class="col-sm-7">
@@ -76,7 +54,7 @@
                 <h4 class="form_hdrs">Company Details</h4>
                 <div class="sec1">
                     <form method="post" action="" role="form" class="form" onsubmit="">
-                        <div class="form-group" style="padding-top:3%;">
+                        <div class="form-group">
                             <div class="col-sm-4">
                             <label for="c_name">*Your Company Name</label>
                             </div>
@@ -100,16 +78,16 @@
                                 <textarea id="req" rows="6" class="form-control"></textarea>
                             </div>
                         </div><br>
-                        <div class="form-group" style="padding-top:16%;">
+                        <div class="form-group method_bx" style="padding-top:16%;">
                             <div class="col-sm-4">
                                 <label for="methods">*Present Methods</label>
                             </div>
                             <div class="col-sm-6">
                                 <textarea id="methods" rows="4" class="form-control"></textarea>
                             </div>
-                        </div><br><br><br><br><br><br>
+                        </div><br>
                         <h4 class="form_hdrs">Your Details</h4>
-                        <div class="form-group" style="padding-top:3%;">
+                        <div class="form-group">
                             <div class="col-sm-4">
                             <label for="f_name">*Your Name</label>
                             </div>
@@ -157,11 +135,11 @@
                             <input name="email" id="email" type="email" class="form-control">
                             </div>
                         </div>
-                        <div class="form-group" style="padding-top:3%">
+                        <div class="form-group btn_sectn">
                             <hr>
                         <div class="col-sm-12">
                             <center>
-                            <button class="btn btn-default submit" type="submit">Submit</button>
+                            <button class="btn btn-default submit" type="submit">Submit Details</button>
                                 <button class="btn btn-default reset" type="reset">Reset</button>
                             </center>
                             </div>
@@ -169,7 +147,7 @@
                     </form>
                 </div>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-5 contct_details">
                 <h3>Siddharth Heavy Industries Pvt. Ltd</h3><br>
                 <p>
                     Siddharth Heavy Industries Pvt. Ltd,<br> S.No. 492, Waghawade road, (OFF. KHANAPUR ROAD)
@@ -196,26 +174,8 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js"></script>
-         <script src="assets/js/res_menu.js"></script>
-        <script>
-            var myCent = new google.maps.LatLng(15.84970, 74.49767);
-            function initialize(){
-                var mapProp = {
-                center: myCent,
-                zoom : 14,
-                scrollwheel:false,
-                mapTypeId : google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("location"), mapProp);
-                
-                var marker = new google.maps.Marker({
-                position: myCent
-                });
-                
-                marker.setMap(map);
-            }
-            
-            google.maps.event.addDomListener(window, 'load', initialize);
-        </script>
+        <script src="assets/js/res_menu.js"></script>
+        <script src="assets/js/contct_map.js"></script>
+        
     </body>
 </html>

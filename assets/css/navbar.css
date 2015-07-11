@@ -2,10 +2,7 @@ body {overflow-x: hidden;}
 h1, h2,h3,h4,h5,h6 {margin:0;}
  .sidd {color:#2E41BF;}   
 /*Navigation bar*/
-.toggle-nav {
-    display:none;
-    text-decoration: none;
-}
+.toggle-nav {display:none;text-decoration: none;}
  .nav_bar {position: fixed;width: 100%;z-index: 1000;padding:1% 4%;top:0;background: #012840;box-shadow: 1px 0 2px 2px rgba(0,0,0,0.8);border-bottom: 2px solid rgba(0,0,0,0.1);}
 .nav_bar h1 {float: left;color: white;font-size: 40px;font-family: 'Maven Pro';}
 #sid {color:#2E41BF;font-weight: bold;text-shadow: 1px 1px 2px rgba(0,0,0,0.4);}
@@ -29,9 +26,9 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 /*Responsive menu*/
 @media screen and (max-width: 1000px)
 {
-    body
-    {overflow-x: hidden;}
-     
+    
+    body, html{overflow-x: hidden;}
+    .top_div {margin-top:20px;}
    .toggle-nav {
     padding:0px 10px;
         float:right;
@@ -45,7 +42,6 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
    }
 
     .nav_bar {
-        position:relative;
         display:inline-block;
         width: 100%;
         padding-bottom: 10px;
@@ -92,7 +88,22 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 @media screen and (max-width: 800px)
 {
     .nav_bar h1 {font-size: 30px;margin-top:6px;}
-    
-    .nav_bar ul {
-        width:100%;}
+    .nav_bar ul {width:100%;}
+}
+
+@media screen and (max-width:500px)
+{
+    .top_div {height: 100px;}
+}
+
+@media screen and (max-width:440px)
+{
+    .top_div {height: 80px;}
+    h1.pg_nm {font-size: 32px;}
+}
+
+@media screen and (max-width:340px)
+{
+    .nav_bar h1, .toggle-nav{font-size: 24px;}
+    h1.pg_nm {font-size: 24px;}
 }
