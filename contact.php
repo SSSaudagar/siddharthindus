@@ -26,6 +26,7 @@
 
 <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
     <style>
+        .container-fluid {font-family:abel;}
         #location {height:300px;width:100%}
         #hdr_cont {text-align:center;background:#3247D1;padding:10px;color:white;}
         .contct_sectn {margin-top:6%;padding:6%;padding-top:0;}
