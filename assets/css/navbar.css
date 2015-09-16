@@ -10,8 +10,10 @@ span#comp_nm_nv.active {margin-left: 10px; transition: all 0.4s ease-in}
 .nav_br ul{list-style: none;transition: float 0.4s ease-in}
 .nav_br ul.active{float: right;transition: float 1s ease-in}
 .nav_br ul li{display: inline-block;padding: 4px 20px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
+.nav_br ul li#menu_list_icon{display: none}
+.nav_br ul a {text-decoration: none;}
 .nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
-
+span#menu_icon {display: none;}
 .top_div {background-image: url(../../assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:140px;width:100%;}
 .pg_nm {color:white;background:#141414;padding:10px;padding-left: 4%;}
 h1.pg_nm {font-size: 40px;text-transform: uppercase;}
@@ -32,6 +34,17 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 @media screen and (max-width:662px){
     h1#company_name span {font-size: 44px;}
     h4#moto{float: left;border-left: 0;margin-left: 10px;font-size: 20px}
+}
+@media screen and (max-width:600px){
+.nav_br ul {padding-left: 0px; position: fixed;left: 0;height: 0;overflow: hidden; z-index: 100;background: black;width: 100%;transition: height 0.1s ease-in}
+.nav_br ul.active1{height:100%;transition: height 0.2s ease-in}
+.nav_br ul li {border-bottom: 1px solid #141414}
+.nav_br ul li, .nav_br ul li#menu_list_icon {display: block;padding: 10px;padding-left: 20px;text-align: center; font-size: 26px}
+.nav_br ul li#menu_list_icon {background: #141414;border-bottom:0}
+.nav_br span#menu_icon {position: relative;padding: 10px; display: inline-block;color: white;font-weight: bold;font-size: 30px;float: right}
+.nav_br span#menu_icon.active {margin-top: -10px;}
+.nav_br {height: 60px;margin-bottom: 10px}
+.nav_br.active {background: #111111; position: fixed;z-index: 100;left: 0;top: 0;margin-top: 0%;padding: 10px;}
 }
 @media screen and (max-width:584px){h1#company_name span {font-size: 40px;}}
 @media screen and (max-width:531px){h1#company_name span {font-size: 36px;}}
