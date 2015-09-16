@@ -21,7 +21,7 @@
         <h4 id="moto">Designed and Manufactured to perfection</h4>
         </div>
         <div class="nav_br">
-                <span id="comp_nm_nv">Siddharth Heavy Industries Pvt. Ltd</span>
+                <span id="comp_nm_nv">Siddharth Heavy Industries</span>
                 <span id="menu_icon">&#9776;</span>
         <ul>
             <li id="menu_list_icon"><span>Menu &#9776;</span></li>
@@ -49,7 +49,7 @@
                             <label for="c_name">*Your Company Name</label>
                             </div>
                                 <div class="col-sm-6">
-                                    <input name="c_name" maxlength="30" id="c_name" class="form-control">
+                                    <input name="c_name" maxlength="30" id="c_name" class="form-control" autofocus>
                                     <span class="invalid" id="invalid_cnmae"></span>
                                 </div>
                             </div><br>

@@ -8,7 +8,7 @@
         $(".nav_br").addClass("active");
         $(".nav_br ul").addClass("active");
         $("span#comp_nm_nv").addClass("active");
-                $(".nav_br span#menu_icon").addClass("active");
+        $(".nav_br span#menu_icon").addClass("active");
         }
         else{
             $(".nav_br").removeClass("active");

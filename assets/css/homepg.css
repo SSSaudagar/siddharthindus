@@ -1,4 +1,4 @@
-.corousl {border-bottom: 6px solid #234a88;}
+/*.corousl {border-bottom: 6px solid #234a88;}*/
 .corousl h2{color: white; position: absolute;bottom:0px;right: 0;
 background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #5D77BA),color-stop(1, #234A88));
 background-image: -o-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
