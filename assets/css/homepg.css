@@ -1,0 +1,30 @@
+.corousl {border-bottom: 6px solid #234a88;}
+.corousl h2{color: white; position: absolute;bottom:0px;right: 0;
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #5D77BA),color-stop(1, #234A88));
+background-image: -o-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -moz-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -webkit-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -ms-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: linear-gradient(to bottom, #5D77BA 0%, #234A88 100%);
+padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
+.corousl h2 span{color: black}
+.content-row{color: white;padding: 20px 12px;text-align: justify}
+.content-row .col-sm-6{background:#141414;padding: 0}
+.content-row .col-sm-6 h1{padding: 10px 20px}
+.content-row .col-sm-6 .content_section{padding: 10px 20px}
+.content-row .col-sm-6 h1{font-size: 40px;font-weight: bold;color: red;margin-bottom: 10px}
+.content-row .col-sm-6 p{font-size: 16px;}
+.content-container {padding-top: 6%}
+.comp_nm {font-weight: bold;}
+#last_hd {text-align: center;margin-top: 0%;background:#242424;color: white;padding: 10px;font-size: 30px;}
+.undline {height:0px;border-bottom: 1px solid #dbdbdb;}
+.col1 {border-right: 1px solid #dbdbdb;}
+h1.headers {font-weight: bold;color: white;text-align: center;background: #191919;padding: 10px}
+#locations {height:400px;width:100%}
+ 
+@media screen and (max-width:1140px){.container {width: 100%}}    
+@media screen and (max-width: 800px){.container h1 {font-size: 36px;}}
+@media screen and (max-width: 720px){.container h1 {font-size: 30px;}}
+@media screen and (max-width: 500px){.container h1 {font-size: 26px;}.col1 p{font-size: 14px}}
+@media screen and (max-width:440px){.headers{font-size: 32px;}}
+@media screen and (max-width: 400px){#last_hd{font-size: 24px}}

@@ -1,0 +1,60 @@
+/*image slider*/
+.pic_slidr {position:relative;}
+.pic_slidr {margin-left: 0px;width:100%; height:400px; overflow:hidden;}
+.pic_slidr ul {list-style: none;position: relative;top: 0;left: 0;}
+.pic_slidr ul li{position: absolute;top: 0;left: 0;}
+.pic_slidr li h2 {text-transform: uppercase;color: white; position: absolute;bottom:0px;right: 0;
+		background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #5D77BA),
+	color-stop(1, #234A88)
+);
+background-image: -o-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -moz-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -webkit-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: -ms-linear-gradient(bottom, #5D77BA 0%, #234A88 100%);
+background-image: linear-gradient(to bottom, #5D77BA 0%, #234A88 100%);
+		padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
+img.slids {width: 100%; height:100%;}
+
+img.sml_slides {height:100%;float: right;}
+ul.slider_indicator1 {display: none}
+
+ul.slider_indicator, ul.slider_indicator3 {padding-left: 30%;padding-top: 2%;}
+ul.slider_indicator li, ul.slider_indicator3 li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline-block;cursor: pointer;}
+ul.slider_indicator li.active, ul.slider_indicator3 li.active{background:#cc0000;}
+	
+/*smal slider*/
+.sml_slidr, .sml_slidr3{margin-left: 40px; width:400px; height:200px; overflow:hidden;}
+.sml_slidr ul, .sml_slidr3 ul{list-style: none;}
+.sml_slidr ul li, .sml_slidr3 ul li{position: absolute;top: 0;left: 0;}
+.sml_slidr li h3{position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.8);padding:10px;}
+img.sml_slides {height:100%;float: right;}
+
+@media screen and (max-width: 800px){.pic_slidr li h2 {font-size: 20px;}.pic_slidr {height: 200px;}}
+@media screen and (max-width: 600px){.pic_slidr {height: 150px;}}
+
+@media screen and (max-width:500px){
+.pic_slidr li h2 {font-size: 14px;}
+.sml_slidr3 ul li{margin-left: 5%}
+img.sml_slides {float: none;}
+ul.slider_indicator3{padding-left: 20%; padding-top: 0}
+ul.slider_indicator{padding-left: 12.5%}
+ul.slider_indicator li {width: 25%}
+ul.slider_indicator3 li {width: 30%}
+}
+    
+@media screen and (max-width:400px){
+.pic_slidr {height: 130px;}
+.sml_slidr3 ul li{width: 90%;}
+.sml_slidr {margin-left: 12%;}
+}
+
+@media screen and (max-width:360px){.sml_slidr {margin-left: 8%;}}
+@media screen and (max-width:340px){
+.pic_slidr {height: 110px;}
+.sml_slidr {margin-left: 4%;}
+ul.slider_indicator3{padding-top: 10px}
+}

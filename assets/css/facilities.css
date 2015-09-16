@@ -1,0 +1,11 @@
+.content-container .row {background:#f0f0f0;}
+.facility {padding: 10%;}
+.facility h3 {font-weight: bold;}
+.facility p {font-size: 16px;margin-top: 4%;text-align: justify;}
+   
+@media screen and (max-width:340px){
+.content-container .col-sm-6#col2 .facility{margin-top: 20px}
+.facility {padding: 4%;}
+.facility h3 {font-size: 24px;}
+.facility p {font-size: 14px;}
+}

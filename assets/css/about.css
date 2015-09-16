@@ -1,0 +1,20 @@
+.other_pgs {padding: 0 10%}
+.row1 p,.row2 p, .row3 p, .row4 p {font-size: 16px;}
+.row1 {margin-top:6%;}
+.row1 h1, .row2{font-size: 44px;text-align: center;padding-bottom: 20px;}
+.row1 h1 {font-size: 30px;text-align: center;font-weight: bold;}
+.row1 p{text-align: justify;}
+.row1 ul li{font-weight: bold;}
+.row2 p {text-align: justify;}
+.row2 > .col-sm-12 > .row > .info_sec p{text-align: justify;margin-top:4%;}
+.row2 > .col-sm-12 > p {line-height: 140%;}
+.sml_slidr > ul {list-style: none;}
+.row3 p {margin-bottom: 40px;}
+.sectn_hdrs{margin-bottom: 40px;margin-top: 40px;font-weight: bold;text-transform: uppercase;text-align: center;}
+img.perf {height: 160px;}
+
+@media screen and (max-width:1140px){.ofic {width: 44%;text-align: justify;}}
+@media screen and (max-width:770px){.ofic {width: 100%;text-align: justify;}img.perf {height: 200px;}}
+@media screen and (max-width:500px){.other_pgs {padding: 0 4%}}
+@media screen and (max-width:460px){.row1 p,.row2 p, .row3 p, .row4 p {font-size: 18px;}}
+@media screen and (max-width:340px){.row1 h1 {font-size: 20px;}.row1 p,.row2 p, .row3 p, .row4 p {font-size: 14px;}}
