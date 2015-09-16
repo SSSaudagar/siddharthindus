@@ -18,7 +18,8 @@ padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
 .comp_nm {font-weight: bold;}
 #last_hd {text-align: center;margin-top: 0%;background:#242424;color: white;padding: 10px;font-size: 30px;}
 .undline {height:0px;border-bottom: 1px solid #dbdbdb;}
-.col1 {border-right: 1px solid #dbdbdb;}
+.col1 {border-right: 1px solid #dbdbdb;padding: 4%}
+.col1:last-child {border-right: 0;}
 h1.headers {font-weight: bold;color: white;text-align: center;background: #191919;padding: 10px}
 #locations {height:400px;width:100%}
  
@@ -28,3 +29,4 @@ h1.headers {font-weight: bold;color: white;text-align: center;background: #19191
 @media screen and (max-width: 500px){.container h1 {font-size: 26px;}.col1 p{font-size: 14px}}
 @media screen and (max-width:440px){.headers{font-size: 32px;}}
 @media screen and (max-width: 400px){#last_hd{font-size: 24px}}
+@media screen and (max-width:340px){h1.headers {font-size: 24px}}
