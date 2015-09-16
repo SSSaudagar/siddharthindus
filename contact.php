@@ -22,7 +22,7 @@
             <h1 id="company_name"><span>Siddharth Heavy Industries Pvt. Ltd</span></h1>
         <h4 id="moto">Designed and Manufactured to perfection</h4>
         </div>
-            <div class="nav_br">
+            <div class="nav_br"><span id="comp_nm_nv">Siddharth Heavy Industries Pvt. Ltd</span>
         <ul>
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
@@ -167,6 +167,7 @@
 
         </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="assets/js/navbr.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js"></script>
     <script src="assets/js/contct_map.js"></script>
         <script src="assets/js/contact-validate.js"></script>
