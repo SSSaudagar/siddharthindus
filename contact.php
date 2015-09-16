@@ -19,36 +19,13 @@
 	h1,h2,h3,h4,h5,h6{margin:0}
 	.container-fluid{padding: 2%;}
 	.main_cont{background:#212121;padding-bottom: 0px}
-	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;text-shadow: 0px 2px 0 #424242,
- 0 2px 0 #424242,
- 0 3px 0 #424242,
- 0 4px 0 #424242,
- 0 5px 0 #424242,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);
-}
-	h1#company_name span {color: red;text-shadow: 0px 2px 0 #7a0c0c,
- 0 2px 0 #7a0c0c,
- 0 3px 0 #7a0c0c,
- 0 4px 0 #7a0c0c,
- 0 5px 0 #7a0c0c,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);}
+	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;}
+	h1#company_name span {color: #cc0000;}
 	h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
 	.nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
 	.nav_br ul{list-style: none;}
 	.nav_br ul li{display: inline-block;padding: 4px 16px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
-	.nav_br ul a:hover li{background:red;color:white;font-weight:bold;transition: all 0.2s ease-in;}
+	.nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
 
 /*Page name section*/
 .pg_nm {color:white;background:#141414;padding:10px;padding-left: 4%;}
@@ -58,12 +35,12 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 .contct_sectn {margin-top:6%;padding:6%;padding-top:0;}
 .form-group {padding-top:3%;}
 input[class="form-control"], textarea[class="form-control"] {border-radius:0;border:1px solid grey;color:black}
-input[class="form-control"]:focus, textarea[class="form-control"]:focus {box-shadow:none;border-color:#3247D1}
+input[class="form-control"]:focus, textarea[class="form-control"]:focus {box-shadow:none;border-color:red}
 .submit, .reset {margin-top:10%;color:white;font-size:20px;border-radius:0;border:0}
-.submit {background:red;}
+.submit {background:#cc0000;color:white}
 .reset {background:#212121;}
 .reset:hover, .reset:active, .reset:focus {background:#212121;color:#dbdbdb}
-.submit:hover, .submit:active, .submit:focus {background:red;color:#dbdbdb;}
+.submit:hover, .submit:active, .submit:focus {background:#b20000;color:white;transition:background 0.1s ease-in}
 .form_hdrs {text-align:center;}
 .method_bx {padding-bottom:16%;}
 h2.form_hdrs {text-transform:uppercase;}
@@ -81,12 +58,29 @@ h4.form_hdrs {font-weight:bold;}
 .footr {text-align: center;padding: 20px 0 20px 0;}
 .footr h5{background:#f5f5f5;padding: 20px;}
 .footr a{color:red}
+    
+/*responsive content*/
+@media screen and (max-width:420px) {#location {height:200px;}
+    .btn_sectn {padding-top:0%;}
+    .contct_details {margin-top:16%;padding-top:10%;border-top:1px solid #dbdbdb;}
+}
+    
+    /*top div*/
+@media screen and (max-width:440px)
+{
+    h1.pg_nm {font-size: 32px;}
+}
+
+@media screen and (max-width:340px)
+{
+    h1.pg_nm {font-size: 24px;}
+}
 </style>
 </head>
 <body>
 	<div class="container-fluid main_cont">
 		<div class="row">
-		<h1 id="company_name"><span>SIDDHARTH</span> INDUSTRIES</h1>
+            <h1 id="company_name"><span>SIDDHARTH HEAVY INDUSTRIES PVT. LTD</span></h1>
 		<h4 id="moto">Designed and Manufactured to perfection</h4>
 		</div>
 			<div class="nav_br">

@@ -19,36 +19,13 @@
 	h1,h2,h3,h4,h5,h6{margin:0}
 	.container-fluid{padding: 2%;}
 	.main_cont{background:#212121;padding-bottom: 0px}
-	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;text-shadow: 0px 2px 0 #424242,
- 0 2px 0 #424242,
- 0 3px 0 #424242,
- 0 4px 0 #424242,
- 0 5px 0 #424242,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);
-}
-	h1#company_name span {color: red;text-shadow: 0px 2px 0 #7a0c0c,
- 0 2px 0 #7a0c0c,
- 0 3px 0 #7a0c0c,
- 0 4px 0 #7a0c0c,
- 0 5px 0 #7a0c0c,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);}
+	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;}
+	h1#company_name span {color: #cc0000;}
 	h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
 	.nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
 	.nav_br ul{list-style: none;}
 	.nav_br ul li{display: inline-block;padding: 4px 16px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
-	.nav_br ul a:hover li{background:red;color:white;font-weight:bold;transition: all 0.2s ease-in;}
+	.nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
 	
 	/*div with a background image*/
 .top_div {background-image: url(assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:140px;width:100%;}
@@ -58,8 +35,7 @@
 h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 	
 /*CONTENT SECTION*/
-/*	.content-container {padding-top: 6%}*/
-	.content-container p{text-align: justify;font-size: 18px}
+.content-container p{text-align: justify;font-size: 18px}
 .content-container h1{text-align: center;font-weight: bold;font-size: 40px}
 
 .other_pgs {padding: 0 10%}
@@ -77,7 +53,6 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 
 .row3 p {font-size: 16px;margin-bottom: 40px;}
 .sectn_hdrs{margin-bottom: 40px;margin-top: 40px;font-weight: bold;text-transform: uppercase;text-align: center;}
-/*.contnt {padding:0 14%;}*/
 img.perf {height: 160px;}
 	
 /*image slider*/
@@ -88,7 +63,7 @@ img.slids {width: 100%; height:100%;}
 	
 ul.slider_indicator {padding-left: 30%;padding-top: 2%;}
 ul.slider_indicator li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline-block;cursor: pointer;}
-ul.slider_indicator li.active{background: red;}
+ul.slider_indicator li.active{background:#cc0000;}
 	
 /*smal slider*/
 .sml_slidr{margin-left: 40px; width:400px; height:200px; overflow:hidden;}
@@ -103,12 +78,87 @@ ul.slider_indicator1 {display: none;}
 .footr {text-align: center;padding: 20px 0 20px 0;}
 .footr h5{background:#f5f5f5;padding: 20px;}
 .footr a{color:red}
+    
+/*image slider responsiveness*/
+    @media screen and (max-width: 800px)
+{
+    .pic_slidr li h2 {font-size: 20px;}
+    .pic_slidr {height: 200px;}    
+}
+  
+@media screen and (max-width: 600px)
+{
+    .pic_slidr {height: 150px;}
+}
+
+@media screen and (max-width:500px){
+.pic_slidr li h2 {font-size: 14px;}
+img.sml_slides {float: none;}
+}
+    
+@media screen and (max-width:460px){
+    .row1 p,.row2 p, .row3 p, .row4 p {font-size: 18px;}
+}
+    
+@media screen and (max-width:400px){
+.pic_slidr {height: 130px;}
+.sml_slidr {margin-left: 6%;}
+}
+
+@media screen and (max-width:340px){
+.pic_slidr {height: 110px;}
+.sml_slidr {margin-left: 0%;}
+.row1 p,.row2 p, .row3 p, .row4 p {font-size: 14px;}
+}
+    
+/*content part responsiveness*/
+@media screen and (max-width:1140px)
+{
+    .sml_slidr {width: 50%;}
+    .ofic {width: 44%;text-align: justify;}
+}
+
+@media screen and (max-width:870px){
+    .sml_slidr {width: 44%;}
+}
+
+@media screen and (max-width:770px){
+    .sml_slidr {width: 100%;}
+    .ofic {width: 100%;text-align: justify;}
+    img.perf {height: 200px;}
+}
+
+@media screen and (max-width:500px){
+.other_pgs {padding: 0 4%}
+}
+    
+@media screen and (max-width:340px){
+    .sml_slidr {margin-left: 14px}
+    .row1 h1 {font-size: 20px;}
+}
+    
+    /*top div*/
+    @media screen and (max-width:500px)
+{
+    .top_div {height: 100px;}
+}
+
+@media screen and (max-width:440px)
+{
+    .top_div {height: 80px;}
+    h1.pg_nm {font-size: 32px;}
+}
+
+@media screen and (max-width:340px)
+{
+    h1.pg_nm {font-size: 24px;}
+}
 </style>
 </head>
 <body>
 	<div class="container-fluid main_cont">
 		<div class="row">
-		<h1 id="company_name"><span>SIDDHARTH</span> INDUSTRIES</h1>
+		<h1 id="company_name"><span>SIDDHARTH HEAVY INDUSTRIES PVT. LTD</span></h1>
 		<h4 id="moto">Designed and Manufactured to perfection</h4>
 		</div>
 			<div class="nav_br">
@@ -126,7 +176,7 @@ ul.slider_indicator1 {display: none;}
         <h1 class="pg_nm">Our Company</h1>
 	<div class="container-fluid content-container">
 	<div class="container other_pgs">
-		<div class="row row1 contnt">
+		<div class="row row1">
                  <h1>SIDDHARTH INDUSTRIES is a professionally managed Engineering Company</h1>
                 <hr>
             <div class="col-sm-6">
@@ -157,7 +207,7 @@ ul.slider_indicator1 {display: none;}
                 </div>
         </div>
 		<hr>
-                        <div class="row row3 contnt">
+                        <div class="row row3">
                 <div class="col-sm-12">
                     <h3 class="sectn_hdrs">Siddharth's Experience</h3>
                     <p>Need based, continuous product improvement is the main feature of nearly two decades of Siddharth's experience. Constant learning and indepth study of requirements of extrusion presses have enabled Engineers at Siddharth to meet the varying demands of different Clients. </p>
@@ -166,7 +216,7 @@ ul.slider_indicator1 {display: none;}
                 </div>
             </div>
 		<hr>
-            <div class="row row2 contnt">
+            <div class="row row2">
                 <h3 class="sectn_hdrs">Performance and Quality</h3>
                 <div class="col-sm-6">
                         <p>With the vast experience generated in the past several years and constant endeavour to improve upon the Performance and the Quality of its Hydraulic Presses, the Company has established itself as a Pioneer leading manufacturer in Indian subcontinent.</p>
@@ -176,7 +226,7 @@ ul.slider_indicator1 {display: none;}
                 </div>
                 </div>
 		<hr>
-                                <div class="row row4 contnt">
+                                <div class="row row4">
                         <h3 class="sectn_hdrs">Office and Manufacturing</h3>
                         <div class="col-sm-6 ofic">
                     <p>Office and Manufacturing unit with advanced inhouse FACILITIES, located at BELGAUM in Southern India is easily accessible from major places like Mumbai, Bangalore and Goa. Every equipment manufactured passes through several quality checks, right from raw materials to the finished components, thus ensuring trouble-free operations at the User's end. <br><br></p>

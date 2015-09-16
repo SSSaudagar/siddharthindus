@@ -19,36 +19,13 @@
 	h1,h2,h3,h4,h5,h6{margin:0}
 	.container-fluid{padding: 2%;}
 	.main_cont{background:#212121;padding-bottom: 0px}
-	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;text-shadow: 0px 2px 0 #424242,
- 0 2px 0 #424242,
- 0 3px 0 #424242,
- 0 4px 0 #424242,
- 0 5px 0 #424242,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);
-}
-	h1#company_name span {color: red;text-shadow: 0px 2px 0 #7a0c0c,
- 0 2px 0 #7a0c0c,
- 0 3px 0 #7a0c0c,
- 0 4px 0 #7a0c0c,
- 0 5px 0 #7a0c0c,
- 0 6px 1px rgba(0,0,0,.1),
- 0 0 5px rgba(0,0,0,.1),
- 0 1px 3px rgba(0,0,0,.3),
- 0 3px 5px rgba(0,0,0,.2),
- 0 5px 10px rgba(0,0,0,.25),
- 0 10px 10px rgba(0,0,0,.2),
- 0 20px 20px rgba(0,0,0,.15);}
+	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;}
+	h1#company_name span {color: #cc0000;}
 	h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
 	.nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
 	.nav_br ul{list-style: none;}
 	.nav_br ul li{display: inline-block;padding: 4px 16px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
-	.nav_br ul a:hover li{background:red;color:white;font-weight:bold;transition: all 0.2s ease-in;}
+	.nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
 	
 	/*div with a background image*/
 .top_div {background-image: url(assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:140px;width:100%;}
@@ -58,8 +35,7 @@
 h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 	
 /*CONTENT SECTION*/
-/*	.content-container {padding-top: 6%}*/
-	.content-container p{text-align: justify;font-size: 18px}
+.content-container p{text-align: justify;font-size: 18px}
 .content-container h1{text-align: center;font-weight: bold;font-size: 40px}
 
 .content-container .row {background:#f0f0f0;}
@@ -71,12 +47,36 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
 .footr {text-align: center;padding: 20px 0 20px 0;}
 .footr h5{background:#f5f5f5;padding: 20px;}
 .footr a{color:red}
+   
+@media screen and (max-width:340px){
+.content-container .col-sm-6#col2 .facility{margin-top: 20px}
+.facility {padding: 4%;}
+.facility h3 {font-size: 24px;}
+.facility p {font-size: 14px;}
+}
+    
+    /*top div*/
+    @media screen and (max-width:500px)
+{
+    .top_div {height: 100px;}
+}
+
+@media screen and (max-width:440px)
+{
+    .top_div {height: 80px;}
+    h1.pg_nm {font-size: 32px;}
+}
+
+@media screen and (max-width:340px)
+{
+    h1.pg_nm {font-size: 24px;}
+}
 </style>
 </head>
 <body>
 	<div class="container-fluid main_cont">
 		<div class="row">
-		<h1 id="company_name"><span>SIDDHARTH</span> INDUSTRIES</h1>
+            <h1 id="company_name"><span>SIDDHARTH HEAVY INDUSTRIES PVT. LTD</span></h1>
 		<h4 id="moto">Designed and Manufactured to perfection</h4>
 		</div>
 			<div class="nav_br">
@@ -101,7 +101,7 @@ h1.pg_nm {font-size: 40px;text-transform: uppercase;}
                         <p>The developmental activities undertaken at the design section involve product improvements based on detailed study of Hydraulic Presses leading to advanced operational features and better performance. </p><p>A full fledged <b>Computer Aided Design (CAD)</b> center assists the Design Engineers to understand and satisfy varying specifications of the customer.</p><p> <b>Computer Aided Stress Analysis</b> facility utilised to study individual component and machine behaviour during no-load and load conditions facilitates the safest and the optimum design of individual presses.</p>
                     </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6" id="col2">
                     <div class="facility">
                         <h3>Manufacturing Facilities</h3>
                         <p>The manufacturing facilities at Belgaum works comprises of ultramodern equipments. The works is well equipped with the most sophisticated and advanced <b>"SKODA"</b> horizontal boring machine, which ensures increased smoothness of complex surfaces and faster operation. </p><p>The workshop also has other machining equipment like Milling Machines, High capacity metal cutting Lathes, Radial drilling Machine, Honing Machine and various material handling utilities.</p>
