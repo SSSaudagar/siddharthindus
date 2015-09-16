@@ -32,6 +32,8 @@ ul.slider_indicator li.active, ul.slider_indicator3 li.active{background:#cc0000
 .sml_slidr ul li, .sml_slidr3 ul li{position: absolute;top: 0;left: 0;}
 .sml_slidr li h3{position:absolute;top:0;right:0;color:white;background:rgba(0,0,0,0.8);padding:10px;}
 img.sml_slides {height:100%;float: right;}
+ul.slider_indicator3{padding-left: 2%;}
+ul.slider_indicator3 li {width: 30%}
 
 @media screen and (max-width: 800px){.pic_slidr li h2 {font-size: 20px;}.pic_slidr {height: 200px;}}
 @media screen and (max-width: 600px){.pic_slidr {height: 150px;}}
@@ -43,7 +45,6 @@ img.sml_slides {float: none;}
 ul.slider_indicator3{padding-left: 20%; padding-top: 0}
 ul.slider_indicator{padding-left: 12.5%}
 ul.slider_indicator li {width: 25%}
-ul.slider_indicator3 li {width: 30%}
 }
     
 @media screen and (max-width:400px){
