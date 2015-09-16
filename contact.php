@@ -11,8 +11,6 @@
 <meta name = 'description' content="">
 <meta name="keywords" content="">
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
-
 <link href="assets/css/navbar.css" rel="stylesheet">
 <link href="assets/css/contact.css" rel="stylesheet">
 </head>

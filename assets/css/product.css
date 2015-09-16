@@ -21,7 +21,7 @@ ul.additionl_featur_list li {padding-left:0;margin-left: -20px;line-height: 160%
 .tabs {margin-top: 6%}
 .tabs_dv ul {list-style: none;float: right;margin-right: 6%;margin-top: 20px;}
 .tabs_dv ul li {display: inline-block;padding-right: 20px;}
-.tabs_dv ul li a{color: #424242;font-family: abel;font-size: 20px;}
+.tabs_dv ul li a{color: #424242;font-size: 20px;}
 .tabs_dv ul li a:hover{color: black;}
 .tabs_dv ul li a.active_link{color: red;text-decoration: underline;font-weight: bold;}
 .tabs {display: none;}

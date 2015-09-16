@@ -1,9 +1,9 @@
 @font-face {font-family: 'siddharthlig';src: url('../../assets/fonts/siddharthlig.ttf');}
-body, html{font-family:'abel', sans-serif;overflow-x: hidden}
+body, html{font-family: siddharthlig, sans-serif;overflow-x: hidden}
 h1,h2,h3,h4,h5,h6{margin:0} .container-fluid{padding: 2%;} .main_cont{background:#212121;padding-bottom: 10px}
-h1#company_name span {font-family: siddharthlig;color: #cc0000;font-weight: bold;float:left;font-size:50px;padding:0 10px;margin-left:10px}
+h1#company_name span {color: #cc0000;font-weight: bold;float:left;font-size:50px;padding:0 10px;margin-left:10px}
 h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
-span#comp_nm_nv {margin-left:-100%; font-family: siddharthlig;color: #cc0000;font-weight: bold;float:left;font-size: 34px;transition: margin-left 0.1s ease-in}
+span#comp_nm_nv {margin-left:-100%;color: #cc0000;font-weight: bold;float:left;font-size: 34px;transition: margin-left 0.1s ease-in}
 span#comp_nm_nv.active {margin-left: 10px; transition: all 0.4s ease-in}
 .nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
 .nav_br.active {background: #111111; position: fixed;z-index: 100;left: 0;top: 0;margin-top: 0%;padding: 10px;}
