@@ -11,148 +11,12 @@
 <meta name = 'description' content="">
 <meta name="keywords" content="">
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
-<style>
-	body, html{font-family:'abel', sans-serif;overflow-x: hidden}
-	h1,h2,h3,h4,h5,h6{margin:0}
-	.container-fluid{padding: 2%;}
-	.main_cont{background:#212121;padding-bottom: 0px}
-	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;}
-	h1#company_name span {color: #cc0000;}
-	h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
-	.nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
-	.nav_br ul{list-style: none;}
-	.nav_br ul li{display: inline-block;padding: 4px 16px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
-	.nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
-	
-	/*div with a background image*/
-.top_div {background-image: url(assets/img/indximg2.jpg);background-repeat: no-repeat;background-position: center; background-size: cover; height:140px;width:100%;}
 
-/*Page name section*/
-.pg_nm {color:white;background:#141414;padding:10px;padding-left: 4%;}
-h1.pg_nm {font-size: 40px;text-transform: uppercase;}
-	
-/*CONTENT SECTION*/
-.content-container p{text-align: justify;font-size: 18px}
-.content-container h1{text-align: center;font-weight: bold;font-size: 40px}
-.other_pgs {padding: 0 10%}
-/*image slider*/
-ul.slider_indicator3 {padding-left: 30%;padding-top: 2%;}
-ul.slider_indicator3 li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline-block;cursor: pointer;}
-ul.slider_indicator3 li.active{background: #cc0000;}
-	
-/*smal slider*/
-.sml_slidr3 {margin-left: 40px; width:400px; height:200px; overflow:hidden;}
-.sml_slidr3 ul {list-style: none;}
-.sml_slidr3 ul li {position: absolute;top: 0;left: 0;}
-img.sml_slides {height:100%;float: right;}
-
-ul.slider_indicator3 {display: block;}	
-	
-	
-.row1 {padding-bottom: 4%;}
-.row1 p:nth-child(1) {margin-top: 0%;}
-.row1 p{font-size: 16px;margin-top: 40px; text-align: justify;}
- li {font-size: 16px;}
-.section_nm {background-repeat: no-repeat;background-position: center; background-size: cover; height:130px;width:100%;
-    padding: 0;margin:0;margin-bottom: 6%;}
-.section_nm1 {background-image: url(assets/img/Extrusion.jpg);}
-.cvr {background: rgba(0,0,0,0.4);height: 100%;width: 100%;}
-.section_nm > .cvr > h2 {color: white;padding: 3.5%;text-align: center;}
-.row3.section_nm1 > .cvr > h2 {text-align: center}
-    
-.row2 h3{padding-bottom: 4%;}
-ul#main_list {font-weight:bold;list-style-type: decimal;font-size: 16px;line-height: 240%;}
-ul#sub_list {list-style:disc;font-weight: normal;line-height: 160%;}
-    
-ul.additionl_featur_list {list-style: decimal;margin-top: 20px;}
-ul.additionl_featur_list li {padding-left:0;margin-left: -20px;line-height: 160%;}
- 
-.row4 {background:#f0f0f0;}
-.row4 > .col-sm-4 > h4 {letter-spacing: 1px;}
-.row4 > div.col-sm-4 {padding:4%;}
-
-.tabs_dv ul {list-style: none;float: right;margin-right: 6%;margin-top: 20px;}
-.tabs_dv ul li {display: inline-block;padding-right: 20px;}
-.tabs_dv ul li a{color: #424242;font-family: abel;font-size: 20px;}
-.tabs_dv ul li a:hover{color: black;}
-.tabs_dv ul li a.active_link{color: red;text-decoration: underline;font-weight: bold;}
-.tabs {display: none;}
-.active_tab {display: block;}
-.sec2 {background-image: url(assets/img/pres.jpg);}
-.hidn {display: none;}
-.sectn_nm >.cvr > h2 {text-align: center}
-.sect2 >.cvr > h2 {text-align: center}
-.pic{width:auto; height:auto;}
-.pic > img {float:right;}
-.machines {height: 200px;width: 300px;}
-.auxies {height: 300px;width: 500px;}
-.auxies  li h3 {position:absolute;bottom:0;left:0;color:white;background:rgba(0,0,0,0.8);padding:10px;font-size: 20px;}
-.auxies img {height: 400px;}
-.o_row2 > .col-sm-6 {padding-top: 0; text-align: justify;}
-.o_row2 {padding: 40px;padding-top: 0;}
-.contnt {padding:0 14%;}
-.tb_beg {padding-top: 4%;}
-img.perf1 {height: 240px;}
-img.perf2 {height: 260px;}	
-	
-/*footer*/    
-.footr {text-align: center;padding: 20px 0 20px 0;}
-.footr h5{background:#f5f5f5;padding: 20px;}
-.footr a{color:red}
-    
-/*content responsiveness*/
-@media screen and (max-width:1140px){
-/*.contnt {padding: 0 8%; text-align: justify}*/
-}
-    
- @media screen and (max-width:500px){
-.contnt {padding:0 4%;}
-.other_pgs {padding: 0 4%}
-ul#main_list {padding-left: 16px;line-height: 180%;}
-.tabs_dv ul {float: none;}
-.tabs_dv ul li {padding-right: 10px;}
-.tabs_dv ul li a.active_link {font-size: 22px;}
-.section_nm {height:100px;}
-.section_nm h2 {font-size: 30px;}
-.pic > img, img.perf1 {float:none;margin-left: 10%}
-.auxies {height: 300px;}
-}
-    
-@media screen and (max-width:400px){
-.section_nm {height:80px;}
-.section_nm h2 {font-size: 26px;}
-img.perf2 {width: 100%; height: 200px;}
-.auxies {height: 200px;}
-}
-    
-@media screen and (max-width:340px){
-.section_nm h2 {font-size: 24px;}
-.row1 p,ul#main_list li, ul.additionl_featur_list li{font-size: 14px;}
-ul#main_list {line-height: 140%;}
-.auxies  li h3 {font-size: 16px;}
-img.perf1, .pic > img {margin-left: 0%}
-}
-    
-    /*top div*/
-    @media screen and (max-width:500px)
-{
-    .top_div {height: 100px;}
-}
-
-@media screen and (max-width:440px)
-{
-    .top_div {height: 80px;}
-    h1.pg_nm {font-size: 32px;}
-}
-
-@media screen and (max-width:340px)
-{
-    h1.pg_nm {font-size: 24px;}
-}
-</style>
+<link href="assets/css/navbar.css" rel="stylesheet">
+<link href="assets/css/containers.css" rel="stylesheet">
+<link href="assets/css/image_slider.css" rel="stylesheet">
+<link href="assets/css/product.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container-fluid main_cont">
@@ -181,9 +45,8 @@ img.perf1, .pic > img {margin-left: 0%}
             </ul>
         </div>
 	<div id="tb1" class="tabs active_tab">
-        <div class="container-fluid other_pgs">
-<hr>            
-            <div class="row tb_beg row1 contnt">
+        <div class="container-fluid other_pgs"><hr>
+            <div class="row tb_beg row1">
             <div class="col-sm-12">
                 <p>Designed, manufactured, assembled and tested at Siddharth Industries, the "SIDDHARTH EXTRUSION PRESSES" cover widest range of applications for metals like Aluminium, Copper, Copper alloys, other nonferrous and precious metals.</p>
                 <p>With in-house design improvements evolving over the years,  based on various requirements of extrusion process, the new range of SIDDHARTH presses are robust &amp; compact in construction, user friendly and maintenance free.</p>
@@ -199,8 +62,8 @@ img.perf1, .pic > img {margin-left: 0%}
                 <h2>Extrusion Press Design Features</h2>
                 </div>
             </div>
-        <div class="container-fluid">
-            <div class="row row2 contnt">
+        <div class="container-fluid other_pgs">
+            <div class="row row2">
                 <div class="col-sm-12">
                     <ul id="main_list">
                         <li>Integrated compact construction occupying less space.</li>
@@ -242,8 +105,8 @@ img.perf1, .pic > img {margin-left: 0%}
                 <h2>Additional Features</h2>
                 </div>
             </div>
-        <div class="container-fluid">
-        <div class="row row4 contnt">
+        <div class="container-fluid other_pgs">
+        <div class="row row4">
                         <div class="col-sm-4">
                             <h4><b>ALUMINIUM Presses</b></h4>
                             <ul class="additionl_featur_list">
@@ -275,9 +138,9 @@ img.perf1, .pic > img {margin-left: 0%}
         </div>
         </div>
 	<div id="tb2" class="tabs">
-                            <div class="container-fluid">
-                                <hr>
-            <div class="row tb_beg row1 contnt">
+        <div class="container-fluid other_pgs">
+            <hr>
+            <div class="row tb_beg row1">
             <div class="col-sm-12">
                 <p>SIDDHARTH INDUSTRIES, with its unique specialization, enviable state of the art technology and unwavering focus on quality, has made a mark in the International market.</p>
                 <p>SIDDHARTH INDUSTRIES has also forged successfully in the Indian market supplying machinery to a host of reputed companies like Bajaj Auto Ltd., Larson and Toubro, TVS Group, Amalgamation Group, Rane Luk &amp; severla LPG Cylinder manufacturers.</p>
@@ -289,8 +152,8 @@ img.perf1, .pic > img {margin-left: 0%}
                 <h2>Metal Pressing &amp; drawing presses</h2>
                 </div>
             </div>
-        <div class="container-fluid">
-            <div class="row row1 contnt">
+        <div class="container-fluid other_pgs">
+            <div class="row row1">
                 <div class="col-sm-12">
                     <p>SIDDHARTH INDUSTRIES developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
                 </div>
@@ -301,8 +164,8 @@ img.perf1, .pic > img {margin-left: 0%}
                 <h2>'C' Frame Presses</h2>
                 </div>
             </div>
-        <div class="container-fluid">
-            <div class="row row1 contnt">
+        <div class="container-fluid other_pgs">
+            <div class="row row1">
                 <div class="col-sm-6">
                     <p>The 'C' Frame Presses are designed for the minimum angular deflection for the purpose of straightening, embossing and for different kind of assemblies.</p><p> The safety guards and P.L.C. can be provided on specific requirements.</p><p> The manufacturing range is from 25 M.T. to 500 M.T.</p>
                 </div>
@@ -318,8 +181,8 @@ img.perf1, .pic > img {margin-left: 0%}
                 <h2>Special purpose machines and Other products</h2>
                 </div>
             </div>
-        <div class="container-fluid">
-            <div class="row row1 o_row2 contnt">
+        <div class="container-fluid other_pgs">
+            <div class="row row1 o_row2">
                 <div class="col-sm-6">
                     <p>The Special Purpose Machines(SPM) are manufactured and supplied on customer's specific requirements.</p>
                     <p>HYDRAULIC POWER PACKS for special application and press applications, Quenching Machines cylinders, Powder Compacting Presses etc.
@@ -328,15 +191,14 @@ All these presses and our state of the art EXTRUSION PRESSES are manufactured wi
                 </div>
                 <div class="col-sm-6">
                     <img class="perf1" src="assets/img/quench.jpg">
-                        </div>
-                        
+                        </div> 
             </div>
         </div>
         </div>
 	<div id="tb3" class="tabs">
-            <div class="container-fluid">
+            <div class="container-fluid other_pgs">
             <hr>
-                <div class="row tb_beg row1 contnt">
+                <div class="row tb_beg row1">
                     <div class="col-sm-6">
                     <div class="auxies sml_slidr3">
                          <ul>

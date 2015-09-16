@@ -11,71 +11,10 @@
 <meta name = 'description' content="">
 <meta name="keywords" content="">
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Maven+Pro">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
-<style>
-	body, html{font-family:'abel', sans-serif;overflow-x: hidden}
-	h1,h2,h3,h4,h5,h6{margin:0}
-	.container-fluid{padding: 2%;}
-	.main_cont{background:#212121;padding-bottom: 0px}
-	h1#company_name {font-weight: bold;color:white;text-transform: uppercase;float:left;font-size:50px;padding:0 10px;}
-	h1#company_name span {color: #cc0000;}
-	h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;padding:10px 14px}
-	.nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
-	.nav_br ul{list-style: none;}
-	.nav_br ul li{display: inline-block;padding: 4px 16px;font-size: 20px;color: white;transition: all 0.2s ease-in;}
-	.nav_br ul a:hover li{background:#7f0000;color:white;font-weight:bold;transition: all 0.2s ease-in;}
-
-/*Page name section*/
-.pg_nm {color:white;background:#141414;padding:10px;padding-left: 4%;}
-h1.pg_nm {font-size: 40px;text-transform: uppercase;}
-
-#location {height:300px;width:100%}
-.contct_sectn {margin-top:6%;padding:6%;padding-top:0;}
-.form-group {padding-top:3%;}
-input[class="form-control"], textarea[class="form-control"] {border-radius:0;border:1px solid grey;color:black}
-input[class="form-control"]:focus, textarea[class="form-control"]:focus {box-shadow:none;border-color:red}
-.submit, .reset {margin-top:10%;color:white;font-size:20px;border-radius:0;border:0}
-.submit {background:#cc0000;color:white}
-.reset {background:#212121;}
-.reset:hover, .reset:active, .reset:focus {background:#212121;color:#dbdbdb}
-.submit:hover, .submit:active, .submit:focus {background:#b20000;color:white;transition:background 0.1s ease-in}
-.form_hdrs {text-align:center;}
-.method_bx {padding-bottom:16%;}
-h2.form_hdrs {text-transform:uppercase;}
-h4.form_hdrs {font-weight:bold;}
-.sub_text {font-weight:bold;}
-.form-group {padding-top: 4%;}
-.method_bx {padding-top: 20%;}
-.contct-boxes1 {padding-top: 14%;}
-.contct-boxes2 {padding-top: 6%;}
-.contct-boxes3 {padding-top: 6%;}
-.btn_sectn {padding-top:3%;}
-.invalid {color:red;font-weight: bold;}	
-	
-/*footer*/    
-.footr {text-align: center;padding: 20px 0 20px 0;}
-.footr h5{background:#f5f5f5;padding: 20px;}
-.footr a{color:red}
     
-/*responsive content*/
-@media screen and (max-width:420px) {#location {height:200px;}
-    .btn_sectn {padding-top:0%;}
-    .contct_details {margin-top:16%;padding-top:10%;border-top:1px solid #dbdbdb;}
-}
-    
-    /*top div*/
-@media screen and (max-width:440px)
-{
-    h1.pg_nm {font-size: 32px;}
-}
-
-@media screen and (max-width:340px)
-{
-    h1.pg_nm {font-size: 24px;}
-}
-</style>
+<link href="assets/css/navbar.css" rel="stylesheet">
+<link href="assets/css/contact.css" rel="stylesheet">
 </head>
 <body>
 	<div class="container-fluid main_cont">
