@@ -12,32 +12,32 @@
 <meta name="keywords" content="">
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
-    
+
 <link href="assets/css/navbar.css" rel="stylesheet">
 <link href="assets/css/contact.css" rel="stylesheet">
 </head>
 <body>
-	<div class="container-fluid main_cont">
-		<div class="row">
-            <h1 id="company_name"><span>SIDDHARTH HEAVY INDUSTRIES PVT. LTD</span></h1>
-		<h4 id="moto">Designed and Manufactured to perfection</h4>
-		</div>
-			<div class="nav_br">
-		<ul>
-			<a href="index.html"><li>Home</li></a>
-			<a href="about.html"><li>About</li></a>
-			<a href="facilities.html"><li>Facilities</li></a>
-			<a href="products.html"><li>Products</li></a>
-			<a href="contact.php"><li>Contact us</li></a>
-		</ul>
-		</div>
-	</div>
-	<div class="top_div">
+    <div class="container-fluid main_cont">
+        <div class="row">
+            <h1 id="company_name"><span>Siddharth Heavy Industries Pvt. Ltd</span></h1>
+        <h4 id="moto">Designed and Manufactured to perfection</h4>
+        </div>
+            <div class="nav_br">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="facilities.html"><li>Facilities</li></a>
+            <a href="products.html"><li>Products</li></a>
+            <a href="contact.php"><li>Contact us</li></a>
+        </ul>
+        </div>
+    </div>
+    <div class="top_div">
         </div>
         <h1 class="pg_nm">Contact us</h1>
             <div id="location"></div>
-		<div class="container-fluid content-container">
-		<div class="row contct_sectn">
+        <div class="container-fluid content-container">
+        <div class="row contct_sectn">
             <div class="col-sm-7">
                 <h2 class="form_hdrs">Enquiry Form</h2><br><br>
                 <h4 class="form_hdrs">Company Details</h4>
@@ -158,17 +158,17 @@
                 <p><span class="sub_text">Mr. Siddharth Chandgadkar :</span> +91-9449159911</p>
             </div>
         </div>
-	</div>
-	<div class="row footr">
+    </div>
+    <div class="row footr">
         <h5>SIDDHARTH HEAVY INDUSTRIES S.No. 492, WAGHAWADE ROAD, (OFF. KHANAPUR ROAD)
             MACHE, BELGAUM - 590 014 (INDIA)<br>Tel: +91-831-2411171/172; Fax : +91-831-2411174/175<br>
             E-mail : <a href="mailto:siddhartindus@sancharnet.in" title="siddhartindus@sancharnet.in">siddhartindus@sancharnet.in</a>
             </h5>
-        
+
         </div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maps.googleapis.com/maps/api/js"></script>
-	<script src="assets/js/contct_map.js"></script>
+    <script src="assets/js/contct_map.js"></script>
         <script src="assets/js/contact-validate.js"></script>
 </body>
 </html>
