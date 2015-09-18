@@ -33,8 +33,6 @@
         </ul>
         </div>
     </div>
-    <div class="top_div">
-        </div>
         <h1 class="pg_nm">Contact us</h1>
             <div id="location"></div>
         <div class="container-fluid content-container">

@@ -7,7 +7,6 @@ $(document).ready(function(){
         if(t_l==0){
             $(i_el).css("borderColor", "red");
             $(i_el).focus();
-            $(i_el).next("span").html("<span class='glyphicon glyphicon-exclamation-sign'></span> Missing");
             return false;
         }
         else{
@@ -33,7 +32,6 @@ $(document).ready(function(){
         if(n_l==0){
             $(i_el).css("borderColor", "red");
             $(i_el).focus();
-            $(i_el).next("span").html("<span class='glyphicon glyphicon-exclamation-sign'></span> Invalid input");
             return false;
         }
         else{
@@ -59,7 +57,6 @@ $(document).ready(function(){
         if(t_l==0){
             $(i_el).css("borderColor", "red");
             $(i_el).focus();
-            $(i_el).next("span").html("<span class='glyphicon glyphicon-exclamation-sign'></span> Invalid input");
             return false;
         }
         else{
