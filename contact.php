@@ -13,6 +13,7 @@
 <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="assets/css/navbar.css" rel="stylesheet">
 <link href="assets/css/contact.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
 </head>
 <body>
     <div class="container-fluid main_cont">
