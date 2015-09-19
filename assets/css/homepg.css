@@ -13,7 +13,7 @@ padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
 .content-row .col-sm-6 h1{padding: 10px 20px}
 .content-row .col-sm-6 .content_section{padding: 10px 20px}
 .content-row .col-sm-6 h1{font-size: 40px;font-weight: bold;color: red;margin-bottom: 10px}
-.content-row .col-sm-6 p{font-size: 16px;}
+/*.content-row .col-sm-6 p{font-size: 16px;}	paragraph element*/
 .content-container {padding-top: 6%}
 #last_hd {text-align: center;margin-top: 0%;background:#242424;color: white;padding: 10px;font-size: 30px;}
 .undline {height:0px;border-bottom: 1px solid #dbdbdb;}
@@ -25,7 +25,7 @@ h1.headers {font-weight: bold;color: white;text-align: center;background: #19191
 @media screen and (max-width:1140px){.container {width: 100%}}    
 @media screen and (max-width: 800px){.container h1 {font-size: 36px;}}
 @media screen and (max-width: 720px){.container h1 {font-size: 30px;}}
-@media screen and (max-width: 500px){.container h1 {font-size: 26px;}.col1 p{font-size: 14px}}
+/*@media screen and (max-width: 500px){.container h1 {font-size: 26px;}.col1 p{font-size: 14px}} 	paragraph element*/
 @media screen and (max-width:440px){.headers{font-size: 32px;}}
 @media screen and (max-width: 400px){#last_hd{font-size: 24px}}
 @media screen and (max-width:340px){h1.headers {font-size: 24px}}

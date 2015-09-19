@@ -1,2 +1,5 @@
-.content-container p{text-align: justify;font-size: 18px}
+.content-container li, .content-container p, .tabs p, .tabs li, .tabs ul#main_list{font-size: 16px;font-family:'abel', sans-serif}
+.content-container p, .tabs p{text-align: justify;}
 .content-container h1{text-align: center;font-weight: bold;font-size: 40px}
+@media screen and (max-width:460px){.content-container li, .content-container p, .tabs p, .tabs li, .tabs ul#main_list{font-size: 18px;}}
+@media screen and (max-width:340px){.content-container li, .content-container p, .tabs p, .tabs li, .tabs ul#main_list{font-size: 14px;}}
