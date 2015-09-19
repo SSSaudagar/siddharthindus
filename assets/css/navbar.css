@@ -17,6 +17,7 @@ h4#moto {color:grey;float:right;margin-top:10px;border-left:1px solid grey;paddi
 span#comp_nm_nv {margin-left:-100%;opacity: 0; color: #cc0000;font-weight: bold;float:left;font-size: 34px;transition: margin-left 0.1s ease-in}
 /*p {font-size: 16px}*/
 span#comp_nm_nv.active {margin-left: 10px;opacity: 1; transition: all 0.4s ease-in}
+.comp_nm {font-weight: bold;}
 .nav_br {background:black;margin-top: 2%;width: 100%;box-shadow: 0 0 4px 2px rgba(0,0,0,0.2);}
 .nav_br.active {background: #111111; position: fixed;z-index: 100;left: 0;top: 0;margin-top: 0%;padding: 10px;}
 .nav_br ul{list-style: none;transition: float 0.4s ease-in}
