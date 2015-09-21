@@ -22,7 +22,6 @@ h4.form_hdrs {font-weight:bold;}
 .btn_sectn {padding-top:3%;}
 .invalid {color:red;font-weight: bold;}	
 
-/*responsive content*/
 @media screen and (max-width:420px) {#location {height:200px;}
     .btn_sectn {padding-top:0%;}
     .contct_details {margin-top:16%;padding-top:10%;border-top:1px solid #dbdbdb;}

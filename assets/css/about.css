@@ -1,5 +1,4 @@
 .other_pgs {padding: 0 10%}
-/*.row1 p,.row2 p, .row3 p, .row4 p {font-size: 16px;}	paragraph element*/
 .row1 {margin-top:6%;}
 .row1 h1, .row2{font-size: 44px;text-align: center;padding-bottom: 20px;}
 .row1 h1 {font-size: 30px;text-align: center;font-weight: bold;}
@@ -16,5 +15,4 @@ img.perf {height: 160px;}
 @media screen and (max-width:1140px){.ofic {width: 44%;text-align: justify;}}
 @media screen and (max-width:770px){.ofic {width: 100%;text-align: justify;}img.perf {height: 200px;}}
 @media screen and (max-width:500px){.other_pgs {padding: 0 4%}}
-/*@media screen and (max-width:460px){.row1 p,.row2 p, .row3 p, .row4 p {font-size: 18px;}}	paragraph element*/
-@media screen and (max-width:340px){.row1 h1 {font-size: 20px;}.row1 p,.row2 p, .row3 p, .row4 p {font-size: 14px;}} /*paragraph element*/
+@media screen and (max-width:340px){.row1 h1 {font-size: 20px;}.row1 p,.row2 p, .row3 p, .row4 p {font-size: 14px;}}
