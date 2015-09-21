@@ -13,7 +13,7 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Abel">
 	<style>
 	@font-face {font-family: 'siddharthlig';src: url('assets/fonts/siddharthlig.ttf');}
-	body{background: white;font-family: 'abel', sans-serif}
+	body{background: #212121;font-family: 'abel', sans-serif}
 	h1, h2, h3, h4, h5, h6 {margin: 0}
 	.ro1{padding:10px;border-bottom: 1px solid #282828;background: #212121}
 	.ro1 .col-sm-4 {color: white;}
@@ -31,8 +31,11 @@
 0 20px 20px rgba(0,0,0,.15);}
 		h3#knwn_as {color: white;margin-top: 4px}
 		h4#moto {color: grey;}
-		.ro2 {padding: 20px;border-bottom: 1px solid #dbdbdb}
-		.info h2{color: #212121;font-weight: bold;border-bottom: 1px solid #242424;margin-bottom: 10px}
+		.ro2 {padding: 20px;border-bottom: 1px solid #282828}
+		.tabs {display: none}
+/*		.tabs#tab1 {display: block}*/
+		.tabs.active {display: block}
+		.info h2{color: white;font-weight: bold;border-bottom: 1px solid #242424;margin-bottom: 10px}
 		.info p{color: grey}
 		/*image slider*/
 .pic_slidr {position:relative;}
@@ -50,6 +53,7 @@ ul.slider_indicator li.active{background:#cc0000;}
 		.ro3 ul li{display: inline;margin-right: 10px}
 		.ro3 ul li a{text-decoration: none;background: #cc0000;color: white;padding: 10px 20px;font-weight: bold;font-size: 26px;}
 		.ro3 ul li a:hover {background: #800000}
+		.ro3 ul li a.active{background: #800000}
 	</style>
 </head>
 <body>
@@ -70,7 +74,38 @@ ul.slider_indicator li.active{background:#cc0000;}
 			<h5>E-mail : <a href="mailto:siddhartindus@sancharnet.in" title="siddhartindus@sancharnet.in">siddhartindus@sancharnet.in</a></h5>
 			</div>
         </div>
-		<div class="row ro2">
+		<div class="row ro2 tabs active" id="tab1">
+			<div class="col-sm-8">
+				<div id="img_tab1">
+				<div class="pic_slidr">
+            <ul>
+                <li>
+<!--					<h2><span>MANUFACTURERS AND EXPORTERS OF</span><br>-->
+<!--                OIL HYDRAULIC PRESSES &amp; EXTRUSION PLANTS</h2>-->
+            <img class="slids" src="assets/img/dob_pul.jpg"></li>
+				<li>
+<!--					<h2><span>Metal extrusion</span> press and plants</h2>-->
+            <img class="slids" src="assets/img/extrusion1.jpg"></li>
+                <li>
+<!--					<h2><span>ENHANCING EXTRUSION</span> THROUGH TECHNOLOGY</h2>-->
+            <img class="slids" src="assets/img/belt_con.png"></li>
+          <ul class="slider_indicator">
+   <li></li>
+   <li></li>
+   <li></li>
+                </ul>
+            </ul>
+        </div>
+				</div>
+			</div>
+	<div class="col-sm-4">
+		<div class="info">
+		<h2>Extrusion Press</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro2 tabs" id="tab2">
 			<div class="col-sm-8">
 				<div id="img_tab1">
 				<div class="pic_slidr">
@@ -101,7 +136,87 @@ ul.slider_indicator li.active{background:#cc0000;}
 			</div>
 	<div class="col-sm-4">
 		<div class="info">
-		<h2>Extrusion Press</h2>
+		<h2>Other Presses</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro2 tabs" id="tab3">
+			<div class="col-sm-8">
+				<div id="img_tab1">
+				<div class="pic_slidr">
+            <ul>
+                <li>
+<!--					<h2><span>MANUFACTURERS AND EXPORTERS OF</span><br>-->
+<!--                OIL HYDRAULIC PRESSES &amp; EXTRUSION PLANTS</h2>-->
+            <img class="slids" src="assets/img/dob_pul.jpg"></li>
+				<li>
+<!--					<h2><span>Metal extrusion</span> press and plants</h2>-->
+            <img class="slids" src="assets/img/extrusion1.jpg"></li>
+                <li>
+<!--					<h2><span>ENHANCING EXTRUSION</span> THROUGH TECHNOLOGY</h2>-->
+            <img class="slids" src="assets/img/belt_con.png"></li>
+          <ul class="slider_indicator">
+   <li></li>
+   <li></li>
+   <li></li>
+                </ul>
+            </ul>
+        </div>
+				</div>
+			</div>
+	<div class="col-sm-4">
+		<div class="info">
+		<h2>Infrastructure</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro2 tabs" id="tab4">
+			<div class="col-sm-8">
+				<div id="img_tab1">
+				<div class="pic_slidr">
+            <ul>
+                <li>
+<!--					<h2><span>MANUFACTURERS AND EXPORTERS OF</span><br>-->
+<!--                OIL HYDRAULIC PRESSES &amp; EXTRUSION PLANTS</h2>-->
+            <img class="slids" src="assets/img/dob_pul.jpg"></li>
+				<li>
+<!--					<h2><span>Metal extrusion</span> press and plants</h2>-->
+            <img class="slids" src="assets/img/extrusion1.jpg"></li>
+                <li>
+<!--					<h2><span>ENHANCING EXTRUSION</span> THROUGH TECHNOLOGY</h2>-->
+            <img class="slids" src="assets/img/belt_con.png"></li>
+          <ul class="slider_indicator">
+   <li></li>
+   <li></li>
+   <li></li>
+                </ul>
+            </ul>
+        </div>
+				</div>
+				<div id="img_tab5">
+				    <div class="map_row">
+						<div id="locations"></div>
+					</div>
+				</div>
+			</div>
+	<div class="col-sm-4">
+		<div class="info">
+		<h2>Facilities</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro2 tabs" id="tab5">
+			<div class="col-sm-8">
+				<div class="map_row">
+					<div id="locations"></div>
+				</div>
+			</div>
+	<div class="col-sm-4">
+		<div class="info">
+		<h2>Our Installations</h2>
 		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
 		</div>
 	</div>
@@ -109,7 +224,7 @@ ul.slider_indicator li.active{background:#cc0000;}
 		<div class="row ro3">
 			<div>
 				<ul>
-					<li><a class="tablinks" id="link1" href="#tab1">Extrusion Press</a></li>
+					<li><a class="tablinks active" id="link1" href="#tab1">Extrusion Press</a></li>
 					<li><a class="tablinks" id="link2" href="#tab2">Other Press</a></li>
 					<li><a class="tablinks" id="link3" href="#tab3">Infrastracture</a></li>
 					<li><a class="tablinks" id="link4" href="#tab4">Facilities</a></li>
@@ -119,12 +234,19 @@ ul.slider_indicator li.active{background:#cc0000;}
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!--	<script src="http://maps.googleapis.com/maps/api/js"></script>-->
 	<script src="assets/js/slider.js"></script>
+<!--	<script src="assets/js/installation.js"></script>-->
 	<script>
 		$(document).ready(function(){
 			$(".tablinks").click(function(e){
 				e.preventDefault();
-				var current_tb = $(this).
+				$(".tablinks").removeClass("active");
+				$(this).addClass("active");
+				var current_tb = $(this).attr('href');
+				console.log("works "+current_tb);
+//				$(".tabs").removeClass("active");
+//				$(".tabs"+currnet_tb).addClass("active");
 			});
 		});
 	</script>
