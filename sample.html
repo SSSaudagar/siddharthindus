@@ -58,6 +58,7 @@ background-image: linear-gradient(to bottom, #5D77BA 0%, #234A88 100%);
 padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
 img.slids {width: 100%;height: 400px}
 
+#locations {height:400px;width:100%}
 /*
 ul.indicators {padding-left: 30%;padding-top: 2%;}
 ul.indicators li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline;cursor: pointer;}
@@ -146,7 +147,7 @@ ul.indicators li.active{background:#cc0000;}
 			<h5>E-mail : <a href="mailto:siddhartindus@gmail.com" title="siddhartindus@gmail.com">siddhartindus@gmail.com</a></h5>
 			</div>
         </div>
-		<div class="row ro2 tabs active" id="tab1">
+		<div class="row ro2 tabs" id="tab1">
 			<div class="col-sm-6">
 				<div class="pic_slidr pic_sectn">
             <ul>
@@ -262,13 +263,13 @@ ul.indicators li.active{background:#cc0000;}
 		</div>
 	</div>
 		</div>
-		<div class="row ro2 tabs" id="tab5">
-			<div class="col-sm-6">
+		<div class="row ro2 tabs active" id="tab5">
+			<div class="col-sm-8">
 				<div class="map_row">
 					<div id="locations"></div>
 				</div>
 			</div>
-	<div class="col-sm-6">
+	<div class="col-sm-4">
 		<div class="info">
 		<h2>Our Installations</h2>
 		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
@@ -288,12 +289,12 @@ ul.indicators li.active{background:#cc0000;}
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<!--	<script src="http://maps.googleapis.com/maps/api/js"></script>-->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="assets/js/sample.js"></script>
 	<script src="assets/js/slider.js"></script>
 	<script src="assets/js/slider2.js"></script>
 	<script src="assets/js/slider3.js"></script>
 	<script src="assets/js/slider4.js"></script>
-<!--	<script src="assets/js/installation.js"></script>-->
 	<script>
 		$(document).ready(function(){
 			$(".tablinks").click(function(e){
@@ -302,13 +303,10 @@ ul.indicators li.active{background:#cc0000;}
 				$(".tablinks").removeClass("active");
 				$(this).addClass("active");
 				var current_tb = $(this).attr('href');
-//				console.log("works "+current_tb);
 				$(".tabs").removeClass("active");
 				$(".tabs"+current_tb).addClass("active");
 				active_corousl = $(current_tb).find(".pic_sectn");
 				active_indicator = $(current_tb).find(".indicators");
-				console.log(active_corousl);
-				console.log(active_indicator);
 					});
 			
 			$("#opn_modl").click(function(){
