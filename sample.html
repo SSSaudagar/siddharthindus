@@ -42,7 +42,7 @@
 .pic_sectn  {position:relative;height: 500px;margin-left: 0px;overflow:hidden;}
 .pic_sectn ul {list-style: none;position: relative;top: 0;left: 0;}
 .pic_sectn ul li{position: absolute;top: 0;left: 0;}
-.pic_sectn li h2 {text-transform: uppercase;color: white; position: absolute;bottom:0px;right: 0;
+.pic_sectn li h2 {text-transform: uppercase;color: white; position: absolute;bottom:0px;left: 0;
 		background-image: -webkit-gradient(
 	linear,
 	left top,
@@ -58,9 +58,11 @@ background-image: linear-gradient(to bottom, #5D77BA 0%, #234A88 100%);
 padding: 10px;padding-right: 4%;font-weight: bold;font-size: 34px}
 img.slids {width: 100%;height: 400px}
 
+/*
 ul.indicators {padding-left: 30%;padding-top: 2%;}
 ul.indicators li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline;cursor: pointer;}
 ul.indicators li.active{background:#cc0000;}
+*/
 		
 		.ro3 {padding: 20px;padding-left: 0;padding-bottom: 10px; position: fixed;bottom: 0;width: 100%;background: rgba(0,0,0,0.4);}
 		.ro3 ul {list-style: none;float: right}
@@ -288,6 +290,9 @@ ul.indicators li.active{background:#cc0000;}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <!--	<script src="http://maps.googleapis.com/maps/api/js"></script>-->
 	<script src="assets/js/slider.js"></script>
+	<script src="assets/js/slider2.js"></script>
+	<script src="assets/js/slider3.js"></script>
+	<script src="assets/js/slider4.js"></script>
 <!--	<script src="assets/js/installation.js"></script>-->
 	<script>
 		$(document).ready(function(){
@@ -304,39 +309,6 @@ ul.indicators li.active{background:#cc0000;}
 				active_indicator = $(current_tb).find(".indicators");
 				console.log(active_corousl);
 				console.log(active_indicator);
-				
-//				var indicatr = $('ul'+active_corousl+' li');
-//				var imags = $(active_indicator+' ul li');
-//				var lastElem = indicatr.length-1;
-//				var tar;
-//
-//				indicatr.first().addClass('active');
-//				imags.hide().first().show();
-//				
-//					function sliderResponse(tar) {
-//					imags.fadeOut(800).eq(tar).fadeIn(800);
-//					indicatr.removeClass('active').eq(tar).addClass('active');
-//						}
-//				
-//					indicatr.click(function(){
-//					if (!$(this).hasClass('active')){
-//					tar = $(this).index();
-//					sliderResponse(tar);
-//					resetTiming();
-//						}
-//					});
-//				
-//					function sliderTiming() {
-//					tar = $('ul'+active_indicator+' li.active').index();
-//					tar === lastElem ? tar = 0 : tar = tar+1;
-//					sliderResponse(tar);
-//						}
-//
-//					var timingRun = setInterval(function() { sliderTiming(); },4000);
-//					function resetTiming() {
-//					clearInterval(timingRun);
-//					timingRun = setInterval(function() { sliderTiming(); },4000);
-//						}
 					});
 			
 			$("#opn_modl").click(function(){
