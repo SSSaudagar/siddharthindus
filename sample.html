@@ -64,13 +64,12 @@ ul.indicators {padding-left: 30%;padding-top: 2%;}
 ul.indicators li{width:14%;height:10px;background: #dbdbdb;list-style: none;display:inline;cursor: pointer;}
 ul.indicators li.active{background:#cc0000;}
 */
-		
 		.ro3 {padding: 20px;padding-left: 0;padding-bottom: 10px; position: fixed;bottom: 0;width: 100%;background: rgba(0,0,0,0.4);}
 		.ro3 ul {list-style: none;float: right}
 		.ro3 ul li{display: inline;margin-right: 10px}
-		.ro3 ul li a{text-decoration: none;border-radius: 5px;background: #cc0000;color: white;padding: 10px 20px;font-weight: bold;font-size: 26px;}
+		.ro3 ul li a{text-decoration: none;border-radius: 5px;background: black;color: white;padding: 10px 20px;font-weight: bold;font-size: 26px;transition: all 0.2s ease-out}
 		.ro3 ul li a:hover {background: #800000}
-		.ro3 ul li a.active{background: #800000;padding: 16px 26px;}
+		.ro3 ul li a.active{background: #800000;padding: 16px 26px;transition: all 0.2s ease-in}
 		
 		/*Modal*/
 		.modal_readmore {position: fixed;width: 100%;height: 100%;z-index: 100;background: rgba(0,0,0,0.8);display: none;overflow-y: scroll}
@@ -147,7 +146,7 @@ ul.indicators li.active{background:#cc0000;}
 			<h5>E-mail : <a href="mailto:siddhartindus@gmail.com" title="siddhartindus@gmail.com">siddhartindus@gmail.com</a></h5>
 			</div>
         </div>
-		<div class="row ro2 tabs" id="tab1">
+		<div class="row ro2 tabs active" id="tab1">
 			<div class="col-sm-6">
 				<div class="pic_slidr pic_sectn">
             <ul>
@@ -263,7 +262,7 @@ ul.indicators li.active{background:#cc0000;}
 		</div>
 	</div>
 		</div>
-		<div class="row ro2 tabs active" id="tab5">
+		<div class="row ro2 tabs" id="tab5">
 			<div class="col-sm-8">
 				<div class="map_row">
 					<div id="locations"></div>
