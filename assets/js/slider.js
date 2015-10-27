@@ -19,7 +19,7 @@ indicatr.click(function() {
         resetTiming();
     }
 });
-
+	
 function sliderTiming() {
     tar = $('ul.slider_indicator li.active').index();
 	console.log('index is:'+tar);
