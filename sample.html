@@ -37,7 +37,9 @@
         .tabs {display: none}
         .tabs.active {display: block}
         .info h2{color: white;font-size: 30px; font-weight: bold;padding-bottom: 10px; border-bottom: 1px solid #282828;}
-        .info p{color: grey;font-size: 18px}
+        .info p {color: grey;font-size: 18px}
+		.info ol, .info ul li {color: grey; font-size: 16px}
+		.info ul {list-style: disc;}
         .info a {font-size: 20px}
         /*image slider*/
 .pic_sectn  {position:relative;height: 500px;width: 100%;margin-left: 0px;overflow:hidden;}
@@ -60,7 +62,7 @@ padding: 10px;padding-right: 4%;font-weight: bold;font-size: 24px}
 img.slids {width: 100%;height: 400px}
 
 #locations {height:400px;width:100%}
-		.extrusion_cont {display: none;}
+		.extrusion_cont {display: none;padding-bottom: 16%}
 		.extrusion_cont.active {display: block;}
 		
 		.ro3 {padding: 20px;padding-left: 0;padding-bottom: 10px; position: fixed;bottom: 0;width: 100%;background: rgba(0,0,0,0.4);}
@@ -72,8 +74,8 @@ img.slids {width: 100%;height: 400px}
 		.link-icons {display: none}
 		
 		/*Modal*/
-		.modal_readmore {position: fixed;width: 100%;height: 100%;z-index: 100;background: rgba(0,0,0,0.8);display: none;overflow-y: scroll}
-		.modal_readmore .modal_sectn {background: white;color: white;margin: 60px 200px;color: #212121;padding: 20px}
+		.modal_readmore {position: fixed;width: 100%;height: 100%;z-index: 100;background: rgba(0,0,0,0.8);display: none;overflow-y: hidden}
+		.modal_readmore .modal_sectn {background: white;color: white;margin: 40px 140px 0;color: #212121;padding: 20px}
 		.modal_readmore .modal_sectn h2 {float: right;}
 		.modal_readmore .modal_sectn h2 a{text-decoration: none;}
 		.modal_readmore .modal_sectn ul {list-style: decimal;font-weight: bold;}
@@ -82,12 +84,14 @@ img.slids {width: 100%;height: 400px}
 		.modal_readmore .modal_sectn ul#sublist li {line-height: 140%}
 		
 		@media screen and (max-width:1160px){
+		.modal_readmore .modal_sectn {margin:10px 140px 0;}
 		.numb1, .numb2 {width: 100%}
 		.pic_slidr, .pic_slidr2, .pic_slidr3, .pic_slidr4, #locations, img.slids{height: 340px}
 		.tabs li h2 {font-size: 24px}
 		}
 		
 		@media screen and (max-width:1076px){
+		.modal_readmore {overflow-y: auto}
 		h1#company_name{font-size: 40px}
 		h3#knwn_as {font-size: 24px}
 		h4#moto {font-size: 18px}
@@ -97,10 +101,17 @@ img.slids {width: 100%;height: 400px}
 		.ro3 ul li a.active{padding: 14px 20px}
 		.tabs li h2{font-size:18px}
 		.info h2 {font-size:28px}
-		.info p {font-size:16px}
+		.info p{font-size:16px}
+		.info ol, .info ul li {font-size: 14px}
+		}
+		
+		@media screen and (max-width:838px){
+			.modal_readmore .modal_sectn {margin:10px 100px 0;}
+			.info {padding-bottom: 20%}
 		}
 		
 		@media screen and (max-width:802px){
+			.info {padding-bottom: 30%;}
 			.ro3 ul{text-align: center;float: none}
 			.ro3 ul li a {border-radius: 30px;padding: 10px 12px;}
 		.ro3 ul li a.active{padding: 18px 22px;}
@@ -109,23 +120,31 @@ img.slids {width: 100%;height: 400px}
 		}
 		
 		@media screen and (max-width:767px){
-			.main_cont {padding-bottom: 20%}
+			.modal_readmore .modal_sectn {margin:10px;}
+			.main_cont {padding-bottom: 12%}
+			.info {padding-bottom: 0%;}
 			.ro1 .col-sm-5 h4{margin-top: 10px;}
 			.tabs li h2{font-size:20px}
 			.info {margin-top: 20px}
 		}
 		
 		@media screen and (max-width:559px){
+			.main_cont {padding-bottom: 18%}
 			h1#company_name{font-size: 38px}
 			h1#company_name span{display: none}
 			h3#knwn_as {font-size: 22px}
+			.info h2 {font-size:22px}
+			.info p {font-size:16px}
+			.info ol, .info ul li {font-size:14px}
 		}
 		
 		@media screen and (max-width:460px){
+			.modal_sectn ol {padding-left: 10px}
+			.modal_sectn ul {padding-left: 18px}
 			.pic_slidr, .pic_slidr2, .pic_slidr3, .pic_slidr4, img.slids, #locations{height: 200px}
 			.tabs li h2 {font-size: 18px}
-			.info h2 {font-size:24px}
 			.info p {font-size:14px}
+			.info ol, .info ul li {font-size:12px}
 		}
 		
 		@media screen and (max-width:426px){
@@ -135,9 +154,11 @@ img.slids {width: 100%;height: 400px}
 			h4#moto {font-size: 16px}
 			.ro1 .col-sm-5 h4 {font-size:14px}
 			.ro1 .col-sm-5 h5 {font-size:12px}
+			.ro3 {margin-left: 0}
 		}
 		
 		@media screen and (max-width:400px){
+			.modal_sectn ol, .modal_sectn ul {font-size: 12px;}
 			.tabs li h2 {font-size: 14px}
 		}
 		
@@ -148,7 +169,7 @@ img.slids {width: 100%;height: 400px}
 		
 		@media screen and (max-width:342px){
 			.info h2 {font-size:20px}
-			.info p {font-size:12px;margin-top: 10px}
+			.info p, .info ol, .info ul li {font-size:12px;margin-top: 10px}
 			.ro3 ul li a {font-size:16px;padding: 6px 8px;}
 			.ro3 ul li a.active{padding: 14px 18px;}
 		}
@@ -364,71 +385,71 @@ img.slids {width: 100%;height: 400px}
    <li></li>
                 </ul>
             </ul>
-                </div>
-            </div>
-    <div class="col-sm-6">
-        <div class="info">
-        <h2>Facilities</h2>
-        <p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
-        </div>
-    </div>
-        </div>
-        <div class="row ro2 tabs" id="tab5">
-            <div class="col-sm-8">
-                <div class="map_row">
-                    <div id="locations">
-                        <img id="instals" src="assets/img/installations.png" style="width:100%">
-                    </div>
-                </div>
-            </div>
-    <div class="col-sm-4">
-        <div class="info">
-        <h2>Our Installations</h2>
-        <p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
-        </div>
-    </div>
-        </div>
-        <div class="row ro3">
-            <div>
-                <ul>
-                    <li><a class="tablinks active" id="link1" href="#tab1">Extrusion Press </a></li>
-                    <li><a class="tablinks" id="link2" href="#tab2">Other Presses</a></li>
-                    <li><a class="tablinks" id="link3" href="#tab3">Infrastracture</a></li>
-                    <li><a class="tablinks" id="link4" href="#tab4">Location</a></li>
-                    <li><a class="tablinks" id="link5" href="#tab5">Our Installations</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
-<!--	<script src="assets/js/sample.js"></script>-->
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/slider2.js"></script>
-    <script src="assets/js/slider3.js"></script>
-    <script src="assets/js/slider4.js"></script>
-    <script>
-        $(document).ready(function(){
-            $(".tablinks").click(function(e){
-                var active_corousl; var active_indicator;
-                e.preventDefault();
-                $(".tablinks").removeClass("active");
-                $(this).addClass("active");
-                var current_tb = $(this).attr('href');
-                $(".tabs").removeClass("active");
-                $(".tabs"+current_tb).addClass("active");
-                active_corousl = $(current_tb).find(".pic_sectn");
-                active_indicator = $(current_tb).find(".indicators");
-                    });
-
-            $("#opn_modl").click(function(){
-                $(".modal_readmore").fadeIn();
-            });
-            $("#cls_modl").click(function(){
-                $(".modal_readmore").fadeOut();
-            });
-            });
-    </script>
+				</div>
+			</div>
+	<div class="col-sm-6">
+		<div class="info">
+		<h2>Facilities</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro2 tabs" id="tab5">
+			<div class="col-sm-8">
+				<div class="map_row">
+					<div id="locations">
+						<img id="instals" src="assets/img/installations.png" style="width:100%">
+					</div>
+				</div>
+			</div>
+	<div class="col-sm-4">
+		<div class="info">
+		<h2>Our Installations</h2>
+		<p><span class="comp_nm">Siddharth</span> developed high speed productive presses for Metal Pressing, Metal Drawing, Straightening etc. suitable for Automobile components manufacturers, L.P.G. Gas cylinder manufacturers, Rubber Component manufacturers etc.</p><p> The presses are designed by using finite element analysis to meet the acute requirements of the users.</p><p> The Deep Drawing Presses are manufactured with Four pre Stretched Tie Rods, Compressed Column Design &amp; Hardened Rams.</p><p>The presses are manufactured as per Japanese Industries Standards [JIS-B 6403-1973] The manufacturing range of these presses is of 100 M.T. to 2000 M.T.</p>
+		</div>
+	</div>
+		</div>
+		<div class="row ro3">
+			<div>
+				<ul>
+					<li><a class="tablinks active" id="link1" href="#tab1"><span class="link-names">Extrusion Press</span><span class="link-icons glyphicon glyphicon-th-large"></span></a></li>
+					<li><a class="tablinks" id="link2" href="#tab2"><span class="link-names">Other Press</span><span class="link-icons glyphicon glyphicon-home"></span></a></li>
+					<li><a class="tablinks" id="link3" href="#tab3"><span class="link-names">Infrastracture</span><span class="link-icons glyphicon glyphicon-tags"></span></a></li>
+					<li><a class="tablinks" id="link4" href="#tab4"><span class="link-names">Facilities</span><span class="link-icons glyphicon glyphicon-adjust"></span></a></li>
+					<li><a class="tablinks" id="link5" href="#tab5"><span class="link-names">Our Installations</span><span class="link-icons glyphicon glyphicon-map-marker"></span></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="assets/js/slider.js"></script>
+	<script src="assets/js/slider2.js"></script>
+	<script src="assets/js/slider3.js"></script>
+	<script src="assets/js/slider4.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".tablinks").click(function(e){
+				var active_corousl; var active_indicator;
+				e.preventDefault();
+				$(".tablinks").removeClass("active");
+				$(this).addClass("active");
+				var current_tb = $(this).attr('href');
+				$(".tabs").removeClass("active");
+				$(".tabs"+current_tb).addClass("active");
+				active_corousl = $(current_tb).find(".pic_sectn");
+				active_indicator = $(current_tb).find(".indicators");
+					});
+			
+			$("#opn_modl").click(function(e){
+				e.preventDefault();
+				$(".modal_readmore").fadeIn();
+			});
+			$("#cls_modl").click(function(e){
+				e.preventDefault();
+				$(".modal_readmore").fadeOut();
+			});
+			});
+	</script>
 </body>
 </html>
