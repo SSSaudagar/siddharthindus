@@ -3,6 +3,7 @@ body, html {overflow-x: hidden}
 body{background: #212121;font-family: 'abel', sans-serif;}
 h1, h2, h3, h4, h5, h6 {margin: 0}
 a {text-decoration: none;}
+.main_cont {padding-bottom: 4%}
 .ro1{padding:10px;border-bottom: 1px solid #282828;background: #212121}
 .ro1 .col-sm-5 {color: white;}
 h1#company_name {font-family: siddharthlig, sans-serif;color: #cc0000;font-weight: bold;font-size:46px;text-shadow: 0px 1px 0 #4c0000,
@@ -33,7 +34,7 @@ h4#moto {color: grey;}
 .pic_sectn  {position:relative;height: 500px;width: 100%;margin-left: 0px;overflow:hidden;}
 .pic_sectn ul {list-style: none;position: relative;top: 0;left: 0;}
 .pic_sectn ul li{position: absolute;top: 0;left: 0;}
-.pic_sectn li h2 {text-transform: uppercase;color: white; position: absolute;bottom:0px;left: 0;
+.pic_sectn li h2 {text-transform: uppercase;color: white;
 background-image: -webkit-gradient(
 linear,
 left top,
@@ -70,6 +71,17 @@ img.slids {width: 100%;height: 400px}
 .modal_readmore .modal_sectn ul li {line-height: 180%}
 .modal_readmore .modal_sectn ul#sublist {list-style:disc;font-weight: normal}
 .modal_readmore .modal_sectn ul#sublist li {line-height: 140%}
+
+.info::-webkit-scrollbar {width: 12px;}
+.info::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+.info::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:rgba(0,0,0,0.5); 
+}
 
 @media screen and (max-width:1160px){
 .modal_readmore .modal_sectn {margin:10px 140px 0;}
