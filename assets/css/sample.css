@@ -24,9 +24,11 @@ h4#moto {color: grey;}
 .tabs.active {display: block}
 .info h2{color: white;font-size: 30px; font-weight: bold;padding-bottom: 10px; border-bottom: 1px solid #282828;}
 .info p {color: grey;font-size: 18px}
+.info h3 {color: white;font-size: 22px}
 .info ol, .info ul li {color: grey; font-size: 16px}
 .info ul {list-style: disc;}
 .info a {font-size: 20px}
+.info{height: 400px; overflow-y: scroll}
 /*image slider*/
 .pic_sectn  {position:relative;height: 500px;width: 100%;margin-left: 0px;overflow:hidden;}
 .pic_sectn ul {list-style: none;position: relative;top: 0;left: 0;}
