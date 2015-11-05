@@ -86,7 +86,7 @@ img.slids {width: 100%;height: 400px}
 @media screen and (max-width:1160px){
 .modal_readmore .modal_sectn {margin:10px 140px 0;}
 .numb1, .numb2 {width: 100%}
-.pic_slidr, .pic_slidr2, .pic_slidr3, .pic_slidr4, #locations, img.slids{height: 340px}
+#locations{height: 340px} /*, img.slids*/
 .tabs li h2 {font-size: 24px}
 }
 
@@ -141,7 +141,8 @@ h4#moto {font-size: 18px}
 @media screen and (max-width:460px){
 	.modal_sectn ol {padding-left: 10px}
 	.modal_sectn ul {padding-left: 18px}
-	.pic_slidr, .pic_slidr2, .pic_slidr3, .pic_slidr4, img.slids, #locations{height: 200px}
+	.pic_sectn {height: 320px}
+	img.slids, #locations{height: 200px}
 	.tabs li h2 {font-size: 18px}
 	.info p {font-size:14px}
 	.info ol, .info ul li {font-size:12px}
