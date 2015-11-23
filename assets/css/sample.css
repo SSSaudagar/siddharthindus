@@ -3,7 +3,6 @@ body, html {overflow-x: hidden}
 body{background: #212121;font-family: 'abel', sans-serif;}
 h1, h2, h3, h4, h5, h6 {margin: 0}
 a {text-decoration: none;}
-.main_cont {padding-bottom: 4%}
 .ro1{padding:10px;border-bottom: 1px solid #282828;background: #212121}
 .ro1 .col-sm-5 {color: white;}
 h1#company_name {font-family: siddharthlig, sans-serif;color: #cc0000;font-weight: bold;font-size:46px;text-shadow: 0px 1px 0 #4c0000,
@@ -31,7 +30,7 @@ h4#moto {color: grey;}
 .info a {font-size: 20px}
 .info{height: 400px; overflow-y: scroll}
 /*image slider*/
-.pic_sectn  {position:relative;height: 500px;width: 100%;margin-left: 0px;overflow:hidden;}
+.pic_sectn  {position:relative;height: 500px;width: 100%;margin-left: 0px;overflow:hidden;transform: scale(0.8);}
 .pic_sectn ul {list-style: none;position: relative;top: 0;left: 0;}
 .pic_sectn ul li{position: absolute;top: 0;left: 0;}
 .pic_sectn li h2 {text-transform: uppercase;color: white;
@@ -61,7 +60,7 @@ img.slids {width: 100%;height: 400px}
 .ro3 ul li a:hover {background: #800000}
 .ro3 ul li a.active{background: #800000;padding: 16px 26px;transition: all 0.2s ease-in}
 .link-icons {display: none}
-
+.info {transform: scale(0.9)}
 /*Modal*/
 .modal_readmore {position: fixed;width: 100%;height: 100%;z-index: 100;background: rgba(0,0,0,0.8);display: none;overflow-y: hidden}
 .modal_readmore .modal_sectn {background: white;color: white;margin: 40px 140px 0;color: #212121;padding: 20px}
@@ -87,6 +86,8 @@ img.slids {width: 100%;height: 400px}
 .modal_readmore .modal_sectn {margin:10px 140px 0;}
 .numb1, .numb2 {width: 100%}
 #locations{height: 340px}
+img.slids {height: 300px}
+.info {transform: scale(0.8)}
 .tabs li h2 {font-size: 24px}
 }
 
@@ -119,6 +120,12 @@ h4#moto {font-size: 18px}
 	.link-icons{display: inline}
 }
 
+@media screen and (max-width:770px){
+	.ro2 .col-sm-6 {width: 100%}
+	.info, .pic_sectn {transform: scale(1)}
+	img.slids {height: 400px}
+}
+
 @media screen and (max-width:767px){
 	.modal_readmore .modal_sectn {margin:10px;}
 	.main_cont {padding-bottom: 12%}
@@ -126,6 +133,10 @@ h4#moto {font-size: 18px}
 	.ro1 .col-sm-5 h4{margin-top: 10px;}
 	.tabs li h2{font-size:20px}
 	.info {margin-top: 20px}
+}
+
+@media screen and (max-width:590px){
+.pic_sectn {height: 540px}
 }
 
 @media screen and (max-width:559px){
@@ -136,6 +147,9 @@ h4#moto {font-size: 18px}
 	.info h2 {font-size:22px}
 	.info p {font-size:16px}
 	.info ol, .info ul li {font-size:14px}
+	.pic_sectn {height: 420px}
+	img.slids {height: 300px;}
+	.pic_sectn li h2{font-size: 18px}
 }
 
 @media screen and (max-width:460px){
@@ -169,6 +183,7 @@ h4#moto {font-size: 18px}
 }
 
 @media screen and (max-width:342px){
+	.pic_sectn li h2{font-size: 14px}
 	.info h2 {font-size:20px}
 	.info p, .info ol, .info ul li {font-size:12px;margin-top: 10px}
 	.ro3 ul li a {font-size:16px;padding: 6px 8px;}
