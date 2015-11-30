@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Siddharth Heavy Industries Pvt Ltd</title>
+<title>ABC Organization Pvt Ltd</title>
 <link rel="shortcut icon" href="assets/img/favicon.ico"  type="image/x-icon" />
 
 <meta name = 'description' content="">
@@ -18,11 +18,11 @@
 <body>
     <div class="container-fluid main_cont">
         <div class="row">
-            <h1 id="company_name"><span>Siddharth Heavy Industries Pvt. Ltd</span></h1>
+            <h1 id="company_name"><span>ABC Organization Pvt. Ltd</span></h1>
         <h4 id="moto">Designed and Manufactured to perfection</h4>
         </div>
         <div class="nav_br">
-                <span id="comp_nm_nv">Siddharth Heavy Industries</span>
+                <span id="comp_nm_nv">ABC Organization</span>
                 <span id="menu_icon">&#9776;</span>
         <ul>
             <li id="menu_list_icon"><span>Menu &#9776;</span></li>
@@ -142,27 +142,27 @@
                 </div>
             </div>
             <div class="col-sm-5 contct_details">
-                <h3>Siddharth Heavy Industries Pvt. Ltd</h3><br>
+                <h3>ABC Organization Pvt. Ltd</h3><br>
                 <p>
-                    Siddharth Heavy Industries Pvt. Ltd,<br> S.No. 492, Waghawade road, (OFF. KHANAPUR ROAD)
-            Mache, Belgaum- 590 014 (INDIA)
+                    ABC Organization Pvt. Ltd,<br> S.No. 492, abc road, (OFF. xyz ROAD)
+            ipsum, lorem- xxx xxx (INDIA)
                 </p>
                 <br><br>
                 <h3>Contacts</h3><br>
                 <p><span class="sub_text">Phone :</span> +91-831-2411175/71</p>
                 <p><span class="sub_text">Fax :</span> +91-831-2411174/175</p>
-                <p><span class="sub_text">E-mail :</span> <a style="color:red;" href="mailto:siddhartindus@gmail.com" title="siddhartindus@gmail.com">siddhartindus@gmail.com</a></p>
+                <p><span class="sub_text">E-mail :</span> <a style="color:red;" href="#" title="Sample email">abc@gmail.com</a></p>
                 <br><br>
                 <h3>Our Representatives</h3><br>
-                <p><span class="sub_text">Mr.Prashant Jadhav :</span> +91-9845273840</p>
-                <p><span class="sub_text">Mr. Siddharth Chandgadkar :</span> +91-9449159911</p>
+                <p><span class="sub_text">Mr. ghj :</span> +91-xxxxxxxxxx</p>
+                <p><span class="sub_text">Mr. xyz :</span> +91-xxxxxxxxxx</p>
             </div>
         </div>
     </div>
     <div class="row footr">
-        <h5>SIDDHARTH HEAVY INDUSTRIES S.No. 492, WAGHAWADE ROAD, (OFF. KHANAPUR ROAD)
-            MACHE, BELGAUM - 590 014 (INDIA)<br>Tel: +91-831-2411171/172; Fax : +91-831-2411174/175<br>
-            E-mail : <a href="mailto:siddhartindus@sancharnet.in" title="siddhartindus@sancharnet.in">siddhartindus@sancharnet.in</a>
+        <h5>ABC Organization Pvt Ltd S.No. XXX, ABC ROAD, (OFF. XYZ ROAD)
+            lorem, Lorem Ipsum - xxx xxx (INDIA)<br>Tel: +91-xxx-xxxxxxx/xxx; Fax : +91-xxx-xxxxxxx/xxx<br>
+            E-mail : <a href="#" title="Sample email">abc@sancharnet.in</a>
             </h5>
 
         </div>
