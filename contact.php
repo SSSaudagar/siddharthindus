@@ -149,13 +149,13 @@
                 </p>
                 <br><br>
                 <h3>Contacts</h3><br>
-                <p><span class="sub_text">Phone :</span> +91-831-2411175/71</p>
-                <p><span class="sub_text">Fax :</span> +91-831-2411174/175</p>
+                <p><span class="sub_text">Phone :</span> +91-xxx-xxxxxxx/xx</p>
+                <p><span class="sub_text">Fax :</span> +91-xxx-xxxxxxx/xxx</p>
                 <p><span class="sub_text">E-mail :</span> <a style="color:red;" href="#" title="Sample email">abc@gmail.com</a></p>
                 <br><br>
                 <h3>Our Representatives</h3><br>
-                <p><span class="sub_text">Mr. ghj :</span> +91-xxxxxxxxxx</p>
-                <p><span class="sub_text">Mr. xyz :</span> +91-xxxxxxxxxx</p>
+                <p><span class="sub_text">Mr. ghj :</span> +91-xxx-xxxxxxx</p>
+                <p><span class="sub_text">Mr. xyz :</span> +91-xxx-xxxxxxx</p>
             </div>
         </div>
     </div>
