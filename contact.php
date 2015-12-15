@@ -157,7 +157,7 @@
                 <p><span class="sub_text">Mr. ghj :</span> +91-xxx-xxxxxxx</p>
                 <p><span class="sub_text">Mr. xyz :</span> +91-xxx-xxxxxxx</p>
             </div>
-        </div>
+        </div>                                        
     </div>
     <div class="row footr">
         <h5>ABC Organization Pvt Ltd S.No. XXX, ABC ROAD, (OFF. XYZ ROAD)
